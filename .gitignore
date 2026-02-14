@@ -193,3 +193,4 @@ dist-ssr/
 .vercel/
 .netlify/
 .firebase/us_market/us_daily_prices.csv
+*.csv
