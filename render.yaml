@@ -9,13 +9,12 @@ services:
         value: 3.11
       - key: PORT
         value: 10000
-      - key: FLASK_DEBUG
-        value: False
+      - key: FLASK_DEBUG        
       - key: GOOGLE_API_KEY
-        sync: false
+        value: ${{ secrets.GOOGLE_API_KEY }}
       - key: OPENAI_API_KEY
-        sync: false
+        value: ${{ secrets.OPENAI_API_KEY }}
       - key: FRED_API_KEY
-        sync: false
+        value: ${{ secrets.FRED_API_KEY }}
       - key: DATA_DIR
         value: ./us_market/data
