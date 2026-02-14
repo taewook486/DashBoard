@@ -710,7 +710,7 @@ def get_us_macro_analysis():
         return jsonify({"error": str(e)}), 500
 
 
-@app.route("/api/us/sector-heatmap")
+@app.route("/api/us/sector_heatmap")
 def get_us_sector_heatmap():
     try:
         import json

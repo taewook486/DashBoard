@@ -954,7 +954,7 @@
 
                 // Fetch and render Sector Heatmap
                 try {
-                    const sectorRes = await fetch('/api/us/sector-heatmap');
+                    const sectorRes = await fetch('/api/us/sector_heatmap');
                     const sectorData = await sectorRes.json();
                     if (sectorData.series) {
                         renderUSSectorHeatmap(sectorData);
@@ -965,7 +965,7 @@
 
                 // Fetch and render Options Flow
                 try {
-                    const optionsRes = await fetch('/api/us/options-flow');
+                    const optionsRes = await fetch('/api/us/options_flow');
                     const optionsData = await optionsRes.json();
                     if (optionsData.options_flow) {
                         renderUSOptionsFlow(optionsData);
