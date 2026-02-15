@@ -19,7 +19,7 @@
       "metrics": {
         "pc_ratio": 0.7,
         "call_vol": 233287,
-        "put_vol": 163477,
+        "put_vol": 163478,
         "call_oi": 69547,
         "put_oi": 45822
       },
@@ -74,7 +74,7 @@
       "ticker": "META",
       "metrics": {
         "pc_ratio": 0.72,
-        "call_vol": 27845,
+        "call_vol": 27848,
         "put_vol": 20174,
         "call_oi": 14249,
         "put_oi": 6684
@@ -102,7 +102,7 @@
       "ticker": "SPY",
       "metrics": {
         "pc_ratio": 1.05,
-        "call_vol": 592929,
+        "call_vol": 592928,
         "put_vol": 622992,
         "call_oi": 128879,
         "put_oi": 118285
@@ -116,7 +116,7 @@
       "ticker": "QQQ",
       "metrics": {
         "pc_ratio": 1.07,
-        "call_vol": 333238,
+        "call_vol": 333237,
         "put_vol": 356793,
         "call_oi": 67958,
         "put_oi": 80826
@@ -131,7 +131,7 @@
       "metrics": {
         "pc_ratio": 0.94,
         "call_vol": 72026,
-        "put_vol": 68031,
+        "put_vol": 68006,
         "call_oi": 234748,
         "put_oi": 336255
       },
