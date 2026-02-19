@@ -1,11 +1,11 @@
 {
-  "updated": "2026-02-19T07:54:14.759594",
+  "updated": "2026-02-19T15:47:17.507753",
   "events": [
     {
       "date": "2025-12-10",
       "event": "FOMC Interest Rate Decision",
       "impact": "High",
-      "description": "Fed rate decision.\n\n\ud83e\udd16 AI: The FOMC's interest rate decision directly changes borrowing costs across the economy, influencing everything from mortgage rates to corporate loan expenses. Markets react by adjusting stock valuations, bond yields, and the US dollar based on future economic growth and inflation expectations."
+      "description": "Fed rate decision.\n\n\ud83e\udd16 AI: An FOMC interest rate decision directly influences borrowing costs, impacting bond yields, currency strength, and stock valuations. This signals the Fed's economic outlook, shaping investor sentiment and expectations for future growth and inflation across all asset classes."
     }
   ],
   "week_start": "2026-02-19"
