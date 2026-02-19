@@ -1,26 +1,26 @@
 ticker,current_price,change_1d,volume_ratio,obv_change_20d,price_momentum_20d,flow_score,flow_status,name,category
-SPY,685.63,-0.1,0.96,-50.93,-0.49,30,Outflow,SPDR S&P 500,Broad Market
-QQQ,604.98,-0.13,1.0,-33.56,-2.54,22,Strong Outflow,Invesco QQQ,Broad Market
-IWM,263.8,-0.07,0.88,-9.43,-2.22,32,Outflow,iShares Russell 2000,Broad Market
-DIA,496.35,-0.13,0.91,50.18,0.54,70,Strong Inflow,SPDR Dow Jones,Broad Market
-VTI,338.6,-0.07,0.94,-104.15,-0.67,30,Outflow,Vanguard Total Stock,Broad Market
-VOO,630.59,-0.09,0.92,-5.89,-0.47,40,Outflow,Vanguard S&P 500,Broad Market
-XLK,140.46,-0.32,0.9,-30.64,-3.05,22,Strong Outflow,Technology,Sector
-XLF,52.15,-0.84,1.04,-104.21,-3.08,22,Strong Outflow,Financial,Sector
-XLV,156.63,-0.66,0.99,-517.47,-1.05,30,Outflow,Healthcare,Sector
-XLE,55.49,1.29,0.94,246.61,13.44,85,Strong Inflow,Energy,Sector
-XLY,116.21,-0.69,0.97,-79.78,-5.23,15,Strong Outflow,Consumer Disc.,Sector
-XLP,88.12,0.09,1.01,38.79,7.11,85,Strong Inflow,Consumer Staples,Sector
-XLI,176.76,0.98,0.97,63.89,6.8,85,Strong Inflow,Industrials,Sector
-XLB,53.06,0.08,0.87,81.27,7.16,85,Strong Inflow,Materials,Sector
-XLU,45.97,0.79,1.1,3788.65,7.64,85,Strong Inflow,Utilities,Sector
-XLRE,43.21,-0.32,1.12,36.16,5.03,85,Strong Inflow,Real Estate,Sector
-XLC,115.2,0.53,0.75,-501.11,-0.9,30,Outflow,Comm. Services,Sector
-GLD,460.7,0.53,0.44,45.11,1.97,60,Inflow,Gold SPDR,Commodity
-SLV,71.18,1.56,0.46,24.36,-18.31,45,Neutral,Silver iShares,Commodity
-USO,80.88,1.86,0.97,558.5,12.61,85,Strong Inflow,US Oil Fund,Commodity
-TLT,89.36,-0.18,0.96,160.05,2.3,78,Strong Inflow,20+ Yr Treasury,Fixed Income
-IEF,96.95,-0.05,0.92,194.64,1.54,70,Strong Inflow,7-10 Yr Treasury,Fixed Income
-HYG,80.86,-0.06,0.84,-38.46,0.1,30,Outflow,High Yield Corp,Fixed Income
-LQD,111.43,-0.14,0.97,131.53,0.97,70,Strong Inflow,Inv. Grade Corp,Fixed Income
-JNK,97.49,-0.05,0.88,-23.44,0.13,30,Outflow,High Yield Bond,Fixed Income
+SPY,684.48,-0.26,1.03,-42.31,-0.65,30,Outflow,SPDR S&P 500,Broad Market
+QQQ,603.47,-0.38,1.1,-34.2,-2.79,22,Strong Outflow,Invesco QQQ,Broad Market
+IWM,264.6,0.23,0.96,0.91,-1.92,50,Neutral,iShares Russell 2000,Broad Market
+DIA,494.38,-0.53,0.97,35.2,0.14,70,Strong Inflow,SPDR Dow Jones,Broad Market
+VTI,338.19,-0.19,1.01,-100.37,-0.79,30,Outflow,Vanguard Total Stock,Broad Market
+VOO,629.53,-0.26,0.97,-7.92,-0.64,40,Outflow,Vanguard S&P 500,Broad Market
+XLK,140.21,-0.5,0.96,-27.31,-3.22,22,Strong Outflow,Technology,Sector
+XLF,52.15,-0.84,1.13,-91.67,-3.08,22,Strong Outflow,Financial,Sector
+XLV,157.26,-0.26,1.08,-300.47,-0.65,30,Outflow,Healthcare,Sector
+XLE,55.18,0.73,1.03,218.36,12.82,85,Strong Inflow,Energy,Sector
+XLY,116.24,-0.67,1.06,-65.53,-5.2,15,Strong Outflow,Consumer Disc.,Sector
+XLP,87.67,-0.42,1.09,30.99,6.56,85,Strong Inflow,Consumer Staples,Sector
+XLI,176.34,0.74,1.08,58.23,6.55,85,Strong Inflow,Industrials,Sector
+XLB,52.83,-0.36,0.98,58.56,6.68,85,Strong Inflow,Materials,Sector
+XLU,46.11,1.1,1.18,463.72,7.96,85,Strong Inflow,Utilities,Sector
+XLRE,43.2,-0.35,1.18,29.7,5.01,85,Strong Inflow,Real Estate,Sector
+XLC,115.14,0.48,0.84,-231.57,-0.95,30,Outflow,Comm. Services,Sector
+GLD,459.56,0.28,0.48,45.32,1.72,60,Inflow,Gold SPDR,Commodity
+SLV,71.01,1.31,0.49,26.8,-18.5,45,Neutral,Silver iShares,Commodity
+USO,81.19,2.25,1.08,1058.17,13.05,85,Strong Inflow,US Oil Fund,Commodity
+TLT,89.62,0.1,1.04,428.63,2.59,78,Strong Inflow,20+ Yr Treasury,Fixed Income
+IEF,97.09,0.09,0.98,113.37,1.69,70,Strong Inflow,7-10 Yr Treasury,Fixed Income
+HYG,80.94,0.04,0.93,-27.31,0.2,30,Outflow,High Yield Corp,Fixed Income
+LQD,111.68,0.08,1.06,735.6,1.19,70,Strong Inflow,Inv. Grade Corp,Fixed Income
+JNK,97.55,0.02,0.95,-16.11,0.2,30,Outflow,High Yield Bond,Fixed Income
