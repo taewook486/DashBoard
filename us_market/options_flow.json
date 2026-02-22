@@ -32,8 +32,8 @@
       "ticker": "TSLA",
       "metrics": {
         "pc_ratio": 0.71,
-        "call_vol": 214557,
-        "put_vol": 153349,
+        "call_vol": 214555,
+        "put_vol": 153353,
         "call_oi": 32044,
         "put_oi": 32563
       },
@@ -60,7 +60,7 @@
       "ticker": "AMZN",
       "metrics": {
         "pc_ratio": 0.62,
-        "call_vol": 86865,
+        "call_vol": 86869,
         "put_vol": 54225,
         "call_oi": 24331,
         "put_oi": 14941
@@ -75,7 +75,7 @@
       "metrics": {
         "pc_ratio": 0.8,
         "call_vol": 33001,
-        "put_vol": 26352,
+        "put_vol": 26351,
         "call_oi": 9466,
         "put_oi": 5531
       },
@@ -88,7 +88,7 @@
       "ticker": "GOOGL",
       "metrics": {
         "pc_ratio": 0.55,
-        "call_vol": 56014,
+        "call_vol": 56126,
         "put_vol": 30726,
         "call_oi": 12474,
         "put_oi": 7301
@@ -102,7 +102,7 @@
       "ticker": "SPY",
       "metrics": {
         "pc_ratio": 1.37,
-        "call_vol": 533657,
+        "call_vol": 532680,
         "put_vol": 729389,
         "call_oi": 117847,
         "put_oi": 152615
