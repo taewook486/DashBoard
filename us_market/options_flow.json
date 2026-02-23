@@ -6,8 +6,8 @@
         "pc_ratio": 0.63,
         "call_vol": 69376,
         "put_vol": 43540,
-        "call_oi": 26227,
-        "put_oi": 13927
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
         "calls": 6,
@@ -20,8 +20,8 @@
         "pc_ratio": 0.58,
         "call_vol": 269168,
         "put_vol": 156138,
-        "call_oi": 97845,
-        "put_oi": 86846
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
         "calls": 5,
@@ -34,8 +34,8 @@
         "pc_ratio": 0.71,
         "call_vol": 214572,
         "put_vol": 153353,
-        "call_oi": 32061,
-        "put_oi": 32563
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
         "calls": 6,
@@ -48,8 +48,8 @@
         "pc_ratio": 0.4,
         "call_vol": 52884,
         "put_vol": 21296,
-        "call_oi": 18843,
-        "put_oi": 15398
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
         "calls": 6,
@@ -62,8 +62,8 @@
         "pc_ratio": 0.62,
         "call_vol": 86866,
         "put_vol": 54225,
-        "call_oi": 24332,
-        "put_oi": 14941
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
         "calls": 4,
@@ -76,8 +76,8 @@
         "pc_ratio": 0.8,
         "call_vol": 33122,
         "put_vol": 26352,
-        "call_oi": 9627,
-        "put_oi": 5531
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
         "calls": 7,
@@ -90,8 +90,8 @@
         "pc_ratio": 0.55,
         "call_vol": 56016,
         "put_vol": 30776,
-        "call_oi": 12474,
-        "put_oi": 7301
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
         "calls": 5,
@@ -104,8 +104,8 @@
         "pc_ratio": 1.41,
         "call_vol": 534634,
         "put_vol": 753261,
-        "call_oi": 118780,
-        "put_oi": 156359
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
         "calls": 12,
@@ -118,8 +118,8 @@
         "pc_ratio": 1.39,
         "call_vol": 317755,
         "put_vol": 441199,
-        "call_oi": 64645,
-        "put_oi": 95212
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
         "calls": 12,
@@ -132,8 +132,8 @@
         "pc_ratio": 2.19,
         "call_vol": 66280,
         "put_vol": 145446,
-        "call_oi": 73825,
-        "put_oi": 114773
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
         "calls": 9,
