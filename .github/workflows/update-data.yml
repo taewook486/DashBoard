@@ -83,6 +83,10 @@ jobs:
             "smart_money_screener_v2.py"
             "sector_heatmap.py"
             "options_flow.py"
+            "ai_summary_generator.py"
+            "final_report_generator.py"
+            "macro_analyzer.py"
+            "macro_analyzer_gpt.py"
             "economic_calendar.py"
             "analyze_etf_flows.py"
           )
