@@ -3,141 +3,141 @@
     {
       "ticker": "AAPL",
       "metrics": {
-        "pc_ratio": 0.74,
-        "call_vol": 84536,
-        "put_vol": 62900,
-        "call_oi": 30303,
-        "put_oi": 24729
+        "pc_ratio": 0.77,
+        "call_vol": 229513,
+        "put_vol": 176784,
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
         "calls": 4,
-        "puts": 4
+        "puts": 3
       }
     },
     {
       "ticker": "NVDA",
       "metrics": {
-        "pc_ratio": 0.7,
-        "call_vol": 233287,
-        "put_vol": 163478,
-        "call_oi": 69547,
-        "put_oi": 45822
+        "pc_ratio": 0.58,
+        "call_vol": 419858,
+        "put_vol": 244354,
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
-        "calls": 5,
-        "puts": 5
+        "calls": 9,
+        "puts": 7
       }
     },
     {
       "ticker": "TSLA",
       "metrics": {
-        "pc_ratio": 0.82,
-        "call_vol": 164209,
-        "put_vol": 134248,
-        "call_oi": 43649,
-        "put_oi": 39766
+        "pc_ratio": 0.68,
+        "call_vol": 523104,
+        "put_vol": 353722,
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
-        "calls": 7,
-        "puts": 8
+        "calls": 9,
+        "puts": 7
       }
     },
     {
       "ticker": "MSFT",
       "metrics": {
-        "pc_ratio": 0.41,
-        "call_vol": 55475,
-        "put_vol": 22921,
-        "call_oi": 20918,
-        "put_oi": 12898
+        "pc_ratio": 0.49,
+        "call_vol": 91382,
+        "put_vol": 44919,
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
-        "calls": 5,
-        "puts": 4
+        "calls": 6,
+        "puts": 5
       }
     },
     {
       "ticker": "AMZN",
       "metrics": {
-        "pc_ratio": 0.4,
-        "call_vol": 74445,
-        "put_vol": 29678,
-        "call_oi": 41742,
-        "put_oi": 16638
+        "pc_ratio": 0.46,
+        "call_vol": 141790,
+        "put_vol": 65820,
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
-        "calls": 5,
+        "calls": 4,
         "puts": 4
       }
     },
     {
       "ticker": "META",
       "metrics": {
-        "pc_ratio": 0.72,
-        "call_vol": 27848,
-        "put_vol": 20174,
-        "call_oi": 14249,
-        "put_oi": 6684
+        "pc_ratio": 0.89,
+        "call_vol": 96946,
+        "put_vol": 86753,
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
-        "calls": 8,
-        "puts": 4
+        "calls": 6,
+        "puts": 8
       }
     },
     {
       "ticker": "GOOGL",
       "metrics": {
-        "pc_ratio": 0.47,
-        "call_vol": 30700,
-        "put_vol": 14579,
-        "call_oi": 17696,
-        "put_oi": 7697
+        "pc_ratio": 0.66,
+        "call_vol": 48543,
+        "put_vol": 31832,
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
-        "calls": 4,
-        "puts": 4
+        "calls": 3,
+        "puts": 5
       }
     },
     {
       "ticker": "SPY",
       "metrics": {
-        "pc_ratio": 1.05,
-        "call_vol": 592928,
-        "put_vol": 622992,
-        "call_oi": 128879,
-        "put_oi": 118285
+        "pc_ratio": 1.17,
+        "call_vol": 504850,
+        "put_vol": 591282,
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
-        "calls": 12,
-        "puts": 10
+        "calls": 10,
+        "puts": 9
       }
     },
     {
       "ticker": "QQQ",
       "metrics": {
-        "pc_ratio": 1.07,
-        "call_vol": 333237,
-        "put_vol": 356793,
-        "call_oi": 67958,
-        "put_oi": 80826
+        "pc_ratio": 1.45,
+        "call_vol": 265614,
+        "put_vol": 385002,
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
-        "calls": 10,
+        "calls": 8,
         "puts": 7
       }
     },
     {
       "ticker": "AMD",
       "metrics": {
-        "pc_ratio": 0.94,
-        "call_vol": 72026,
-        "put_vol": 68006,
-        "call_oi": 234748,
-        "put_oi": 336255
+        "pc_ratio": 1.29,
+        "call_vol": 295208,
+        "put_vol": 381201,
+        "call_oi": 0,
+        "put_oi": 0
       },
       "unusual": {
-        "calls": 9,
-        "puts": 9
+        "calls": 8,
+        "puts": 6
       }
     }
   ]
