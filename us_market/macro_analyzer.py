@@ -3,11 +3,20 @@
 """
 Macro Market Analyzer
 - Collects macro indicators (VIX, Yields, Commodities, etc.)
-- Uses Gemini 2.5 Flash (primary) with OpenAI GPT-4o Mini fallback
+- Uses Z.ai GLM (primary) with Gemini and OpenAI GPT-4.1 fallback
 - Supports multi-model analysis with automatic fallback logic
+- Saves GLM-specific files (macro_analysis_glm.json, macro_analysis_glm_en.json)
 """
 
 import os
+import sys
+import io
+
+# Fix UTF-8 encoding for Windows console
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+
 import json
 import time
 import requests
@@ -224,12 +233,14 @@ class ZAIAnalyzer:
 
     def __init__(self):
         self.api_key = os.getenv('ZAI_API_KEY')
-        # Z.ai Coding Plan base URL
+        # Latest GLM-5 models
         self.models = [
-            "glm-4-plus",   # Primary: Most capable (only model available)
+            "glm-5",        # Primary: Latest GLM-5
+            "glm-4.7",   # Fallback: Previous generation
         ]
+        # Z.ai Coding Plan base URL
         self.base_url = "https://api.z.ai/api/coding/paas/v4"
-        self.min_request_interval = 2  # Seconds between requests to avoid rate limit
+        self.min_request_interval = 1  # Seconds between requests
 
     def analyze(self, data: Dict, news: List[Dict], patterns: List[Dict], lang: str = 'ko') -> str:
         """
@@ -269,7 +280,7 @@ class ZAIAnalyzer:
 
                 # Construct full URL
                 url = f"{self.base_url}/chat/completions"
-                resp = requests.post(url, headers=headers, json=payload, timeout=30)
+                resp = requests.post(url, headers=headers, json=payload, timeout=120)  # Increased timeout for GLM-5
 
                 if resp.status_code == 200:
                     result = resp.json()
@@ -288,7 +299,7 @@ class ZAIAnalyzer:
                     logger.warning("Z.ai API rate limit reached. Waiting 5 seconds...")
                     time.sleep(5)  # Wait for rate limit to reset
                     # Retry once after rate limit
-                    resp = requests.post(url, headers=headers, json=payload, timeout=30)
+                    resp = requests.post(url, headers=headers, json=payload, timeout=120)
                     if resp.status_code == 200:
                         result = resp.json()
                         if 'choices' in result and len(result['choices']) > 0:
@@ -364,8 +375,8 @@ class OpenAIAnalyzer:
         self.api_key = os.getenv('OPENAI_API_KEY')
         # Try multiple model options for better availability/cost
         self.models = [
-            "gpt-4o-mini",  # Primary: Cheap and fast
-            "gpt-4o"        # Fallback: More capable
+            "gpt-4.1",  # Primary: Latest (2025-04), faster and cheaper
+            "gpt-4o"    # Fallback: Previous generation
         ]
         self.base_url = "https://api.openai.com/v1/chat/completions"
 
@@ -556,6 +567,13 @@ class MultiModelAnalyzer:
                 json.dump(output_ko, f, indent=2, ensure_ascii=False)
             logger.info(f"Saved Korean analysis to {ko_path} (Model: {model_ko})")
 
+            # Save GLM-specific Korean version if GLM was used
+            if model_ko == "Z.ai":
+                glm_ko_path = os.path.join(self.data_dir, 'macro_analysis_glm.json')
+                with open(glm_ko_path, 'w', encoding='utf-8') as f:
+                    json.dump(output_ko, f, indent=2, ensure_ascii=False)
+                logger.info(f"Saved GLM Korean analysis to {glm_ko_path}")
+
             # Save English version
             output_en = {
                 'timestamp': datetime.now().isoformat(),
@@ -568,6 +586,13 @@ class MultiModelAnalyzer:
             with open(en_path, 'w', encoding='utf-8') as f:
                 json.dump(output_en, f, indent=2, ensure_ascii=False)
             logger.info(f"Saved English analysis to {en_path} (Model: {model_en})")
+
+            # Save GLM-specific English version if GLM was used
+            if model_en == "Z.ai":
+                glm_en_path = os.path.join(self.data_dir, 'macro_analysis_glm_en.json')
+                with open(glm_en_path, 'w', encoding='utf-8') as f:
+                    json.dump(output_en, f, indent=2, ensure_ascii=False)
+                logger.info(f"Saved GLM English analysis to {glm_en_path}")
 
             return True
 

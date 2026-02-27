@@ -595,10 +595,12 @@
                         </div>
                         <!-- Model Toggle Button -->
                         <div id="model-toggle" class="flex items-center gap-1 bg-[#2a2a2a] rounded-full p-0.5">
-                            <button data-model="gemini"
+                            <button data-model="gemini" style="display: none;"
                                 class="px-2 py-0.5 text-xs rounded-full bg-purple-600 text-white transition-colors">Gemini</button>
-                            <button data-model="gpt"
+                            <button data-model="gpt" style="display: none;"
                                 class="px-2 py-0.5 text-xs rounded-full text-gray-400 hover:text-white transition-colors">GPT-5.2</button>
+                            <button data-model="glm"
+                                class="px-2 py-0.5 text-xs rounded-full bg-purple-600 text-white transition-colors">GLM-5</button>
                         </div>
                     </div>
                     <div id="us-macro-ai-analysis" class="text-sm text-gray-300 leading-relaxed whitespace-pre-wrap">
@@ -772,7 +774,8 @@
             'options-flow': { ko: 'Options Flow - 기관 포지션', en: 'Options Flow - Institutional Positions' },
             'macro-analysis': { ko: '🌍 Macro Analysis - AI 예측', en: '🌍 Macro Analysis - AI Predictions' },
             'gemini-macro': { ko: 'Gemini 3.0 매크로 분석', en: 'Gemini 3.0 Macro Analysis' },
-            'gpt-macro': { ko: 'GPT-5.2 매크로 분석', en: 'GPT-5.2 Macro Analysis' },
+            'gpt-macro': { ko: 'GPT-5.2 매크로 분석', en: 'G5.2 Macro Analysis' },
+            'glm-macro': { ko: 'GLM-5 매크로 분석', en: 'GLM-5 Macro Analysis' },
             'loading': { ko: '분석 로딩 중...', en: 'Loading analysis...' },
             'loading-options': { ko: 'Loading options...', en: 'Loading options...' },
             'loading-market-map': { ko: 'Loading Market Map...', en: 'Loading Market Map...' }
@@ -813,8 +816,8 @@
             }
         });
 
-        // --- Model Toggle (Gemini/GPT) ---
-        let currentModel = localStorage.getItem('dashboardModel') || 'gemini';
+        // --- Model Toggle (Gemini/GPT/GLM) ---
+        let currentModel = localStorage.getItem('dashboardModel') || 'glm';
 
         // Initialize model toggle UI
         document.getElementById('model-toggle')?.addEventListener('click', (e) => {
@@ -836,7 +839,10 @@
                     // Update model label
                     const labelEl = document.getElementById('macro-model-label');
                     if (labelEl) {
-                        if (model === 'gpt') {
+                        if (model === 'glm') {
+                            labelEl.textContent = i18n['glm-macro'][currentLang] || 'GLM-5 Macro Analysis';
+                            labelEl.dataset.i18n = 'glm-macro';
+                        } else if (model === 'gpt') {
                             labelEl.textContent = i18n['gpt-macro'][currentLang] || 'GPT-5.2 Macro Analysis';
                             labelEl.dataset.i18n = 'gpt-macro';
                         } else {
@@ -873,9 +879,14 @@
 
             // Update model label based on saved preference
             const labelEl = document.getElementById('macro-model-label');
-            if (labelEl && currentModel === 'gpt') {
-                labelEl.textContent = i18n['gpt-macro'][currentLang] || 'GPT-5.2 Macro Analysis';
-                labelEl.dataset.i18n = 'gpt-macro';
+            if (labelEl) {
+                if (currentModel === 'glm') {
+                    labelEl.textContent = i18n['glm-macro'][currentLang] || 'GLM-5 Macro Analysis';
+                    labelEl.dataset.i18n = 'glm-macro';
+                } else if (currentModel === 'gpt') {
+                    labelEl.textContent = i18n['gpt-macro'][currentLang] || 'GPT-5.2 Macro Analysis';
+                    labelEl.dataset.i18n = 'gpt-macro';
+                }
             }
 
             // Apply initial translation

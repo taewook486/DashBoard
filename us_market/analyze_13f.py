@@ -6,6 +6,14 @@ Fetches and analyzes institutional holdings from SEC EDGAR
 """
 
 import os
+import sys
+import io
+
+# Fix UTF-8 encoding for Windows console
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+
 import pandas as pd
 import logging
 from typing import List

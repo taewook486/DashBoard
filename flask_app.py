@@ -635,7 +635,7 @@ def get_us_macro_analysis():
         import json
 
         lang = request.args.get("lang", "ko")
-        model = request.args.get("model", "gemini")
+        model = request.args.get("model", "glm")
 
         macro_indicators = {}
 
@@ -649,11 +649,22 @@ def get_us_macro_analysis():
                     analysis_path = "us_market/macro_analysis_en.json"
                 else:
                     analysis_path = "us_market/macro_analysis.json"
-        else:
+        elif model == "gemini":
             if lang == "en":
                 analysis_path = "us_market/macro_analysis_en.json"
             else:
                 analysis_path = "us_market/macro_analysis.json"
+        else:  # glm
+            if lang == "en":
+                # Try GLM-specific file first, then fallback
+                analysis_path = "us_market/macro_analysis_glm_en.json"
+                if not os.path.exists(analysis_path):
+                    analysis_path = "us_market/macro_analysis_en.json"
+            else:
+                # Try GLM-specific file first, then fallback
+                analysis_path = "us_market/macro_analysis_glm.json"
+                if not os.path.exists(analysis_path):
+                    analysis_path = "us_market/macro_analysis.json"
 
         if not os.path.exists(analysis_path):
             analysis_path = "us_market/macro_analysis.json"
