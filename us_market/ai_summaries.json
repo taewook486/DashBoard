@@ -1,158 +1,224 @@
 {
-  "AVY": {
-    "summary": "AVY는 퀀트 등급 'A급'으로 적극 매수 신호가 강하며, 기관 투자자의 지분 확대는 긍정적인 수급을 형성하고 있습니다. 기업의 펀더멘털은 견고하며, 최근 주당 0.94달러의 현금 배당 발표는 재무 건전성을 뒷받침합니다. UBS 또한 '매수' 등급을 유지하고 목표주가를 226달러로 상향 조정하며 긍정적인 전망을 제시하고 있어, 현 시점에서 매수 관점으로 접근하는 것이 유리합니다.",
-    "summary_ko": "AVY는 퀀트 등급 'A급'으로 적극 매수 신호가 강하며, 기관 투자자의 지분 확대는 긍정적인 수급을 형성하고 있습니다. 기업의 펀더멘털은 견고하며, 최근 주당 0.94달러의 현금 배당 발표는 재무 건전성을 뒷받침합니다. UBS 또한 '매수' 등급을 유지하고 목표주가를 226달러로 상향 조정하며 긍정적인 전망을 제시하고 있어, 현 시점에서 매수 관점으로 접근하는 것이 유리합니다.",
-    "summary_en": "Avery Dennison (AVY) demonstrates strong investment potential, backed by an overall score of 78.0/100 and a \"Strong Buy\" quantitative rating. UBS recently reaffirmed its 'Buy' rating, raising the price target to $226, signaling positive analyst outlook. The company also announced a $0.94-a-share cash dividend for March, further enhancing investor appeal. Additionally, institutional holdings in AVY have increased, indicating growing confidence from professional investors.",
-    "updated": "2026-02-06T18:44:18.567691"
+  "MRK": {
+    "summary": "MRK는 A급 펀더멘털을 바탕으로 양호한 투자 매력도를 보이고 있으며, 최근 주가 상승세는 시장의 긍정적 전망을 반영하고 있습니다. Reddit 트레이더들의 매도 심리가 나타나고 있지만, 장기적인 강세 기조에는 큰 영향을 미치지 않을 것으로 보입니다. 다년간의 강세장 이후 재평가 필요성이 제기되나, 현재의 기본적 가치는 여전히 매수 세력을 지지하고 있습니다. 종합적 전략으로는 강력한 펀더멘털을 활용한 분할 매수 접근이 효과적일 수 있습니다.",
+    "summary_ko": "MRK는 A급 펀더멘털을 바탕으로 양호한 투자 매력도를 보이고 있으며, 최근 주가 상승세는 시장의 긍정적 전망을 반영하고 있습니다. Reddit 트레이더들의 매도 심리가 나타나고 있지만, 장기적인 강세 기조에는 큰 영향을 미치지 않을 것으로 보입니다. 다년간의 강세장 이후 재평가 필요성이 제기되나, 현재의 기본적 가치는 여전히 매수 세력을 지지하고 있습니다. 종합적 전략으로는 강력한 펀더멘털을 활용한 분할 매수 접근이 효과적일 수 있습니다.",
+    "summary_en": "Merck (MRK) presents a strong investment opportunity with its quantitative A-grade buy recommendation and solid score of 75/100. The stock has recently jumped in price, continuing a multi-year upward trend that has prompted some investors to reassess its continued growth potential. While retail traders from Reddit are showing some caution, the company's fundamentals and quantitative metrics remain favorable for long-term investors. After such a strong run, investors should consider whether the current price still offers adequate value relative to Merck's growth prospects.",
+    "updated": "2026-02-27T18:15:35.133161"
   },
-  "NOC": {
-    "summary": "Northrop Grumman (NOC)은 'A급 적극 매수'라는 강력한 정량적 신호와 기관의 지분 확보 소식으로 견고한 매수 수급을 보입니다. 다만, 수년간의 주가 상승으로 인해 펀더멘털 대비 현 주가 수준에 대한 고평가 우려가 제기되고 있습니다. 그럼에도 불구하고 높은 점수와 강력한 매수 신호는 장기적 관점에서 여전히 매력적인 투자 기회를 제공할 수 있음을 시사합니다. 따라서 신중한 접근과 함께 장기적 성장 가능성을 고려한 전략이 유효합니다.",
-    "summary_ko": "Northrop Grumman (NOC)은 'A급 적극 매수'라는 강력한 정량적 신호와 기관의 지분 확보 소식으로 견고한 매수 수급을 보입니다. 다만, 수년간의 주가 상승으로 인해 펀더멘털 대비 현 주가 수준에 대한 고평가 우려가 제기되고 있습니다. 그럼에도 불구하고 높은 점수와 강력한 매수 신호는 장기적 관점에서 여전히 매력적인 투자 기회를 제공할 수 있음을 시사합니다. 따라서 신중한 접근과 함께 장기적 성장 가능성을 고려한 전략이 유효합니다.",
-    "summary_en": "Northrop Grumman (NOC) presents a compelling investment case, boasting a 77.6/100 score and a \"Strong Buy\" quant rating. This positive outlook is reinforced by recent institutional share acquisitions from Jones Financial Companies. Despite its significant multi-year share price appreciation, which has prompted questions about its current valuation, the strong quantitative signals suggest continued upside potential. Investors are encouraged to consider the current robust indicators despite past performance.",
-    "updated": "2026-02-06T18:44:36.738655"
+  "PG": {
+    "summary": "PG는 양적 평가에서 A급(적극 매수) 등급을 받으며 견고한 펀더멘털을 보여주고 있습니다. 관세 불확실성에도 주가는 165달러 선에서 안정적으로 유지되며 투자자들의 방어적 수요가 확인됩니다. 올림픽 마케팅을 통한 브랜드 가치 강화와 민감성 피부를 위한 클린 제품 개발 등 지속 가능한 성장 전략이 유효성을 입증 중입니다. 종합 점수 74.6/100을 고려할 때 중장기적 관점에서 우량주로서의 가치를 유지할 것으로 판",
+    "summary_ko": "PG는 양적 평가에서 A급(적극 매수) 등급을 받으며 견고한 펀더멘털을 보여주고 있습니다. 관세 불확실성에도 주가는 165달러 선에서 안정적으로 유지되며 투자자들의 방어적 수요가 확인됩니다. 올림픽 마케팅을 통한 브랜드 가치 강화와 민감성 피부를 위한 클린 제품 개발 등 지속 가능한 성장 전략이 유효성을 입증 중입니다. 종합 점수 74.6/100을 고려할 때 중장기적 관점에서 우량주로서의 가치를 유지할 것으로 판",
+    "summary_en": "Procter & Gamble presents a strong investment opportunity with its quantitative metrics earning an aggressive buy recommendation. The stock is maintaining stability around $165 as investors adopt defensive positioning amid ongoing tariff uncertainties. P&G's brand strength is being tested through its Olympic return while its sustainability narrative remains under evaluation. The company continues to innovate in personal care products, evidenced by the Native brand collaboration with allergists for sensitive skin formulations.",
+    "updated": "2026-02-27T18:16:02.928605"
   },
-  "EIX": {
-    "summary": "EIX는 77.5점의 높은 점수와 A급 '적극 매수' 퀀트 등급을 받아 긍정적인 투자 심리가 강합니다. 펀더멘털 측면에서는 야후 파이낸스 및 나스닥에서 장기 성장주로 평가받고 있으며, 특히 산불 비용 증권화 노력은 기업의 리스크를 줄이고 펀더멘털을 강화할 잠재적 촉매제입니다. 종합적으로 볼 때, EIX는 개선되는 펀더멘털과 강력한 매수 신호를 바탕으로 장기적인 관점에서 매수를 고려할 만한 종목입니다.",
-    "summary_ko": "EIX는 77.5점의 높은 점수와 A급 '적극 매수' 퀀트 등급을 받아 긍정적인 투자 심리가 강합니다. 펀더멘털 측면에서는 야후 파이낸스 및 나스닥에서 장기 성장주로 평가받고 있으며, 특히 산불 비용 증권화 노력은 기업의 리스크를 줄이고 펀더멘털을 강화할 잠재적 촉매제입니다. 종합적으로 볼 때, EIX는 개선되는 펀더멘털과 강력한 매수 신호를 바탕으로 장기적인 관점에서 매수를 고려할 만한 종목입니다.",
-    "summary_en": "Edison International (EIX) presents a strong investment case, scoring 77.5/100 with a quantitative \"A\" grade, indicating a strong buy. Multiple financial outlets identify it as a top growth stock for the long term. Investors should, however, monitor ongoing wildfire cost securitization efforts, as these could influence its future bull case. Overall, EIX appears to be a promising long-term opportunity with a specific factor to watch.",
-    "updated": "2026-02-06T18:44:52.727183"
+  "BRK-B": {
+    "summary": "BRK-B는 현재 52주 고점 대비 할인된 가격에 거래되고 있어 매수 기회로 작용하고 있습니다. 펀더멘털 측면에서 74.2점의 A등급 평가와 내재 가치 대비 저평가되었다는 전문가 의견은 견실한 기본가치를 시사합니다. 최근 1년간 횡보했음에도 불구하고, 워런 버핏의 효율적인 자본 배분",
+    "summary_ko": "BRK-B는 현재 52주 고점 대비 할인된 가격에 거래되고 있어 매수 기회로 작용하고 있습니다. 펀더멘털 측면에서 74.2점의 A등급 평가와 내재 가치 대비 저평가되었다는 전문가 의견은 견실한 기본가치를 시사합니다. 최근 1년간 횡보했음에도 불구하고, 워런 버핏의 효율적인 자본 배분",
+    "summary_en": "Berkshire Hathaway (BRK.B) receives a strong quantitative buy rating with a score of 74.2/100, indicating solid investment potential. The stock is currently trading at a discount to its intrinsic value according to expert analysis, suggesting an attractive entry point for investors. Despite recent flat performance over the past year, BRK.B presents an opportunity to achieve 10%-plus annual returns based on its current valuation. Investors should consider the company's proven track record and current market discount as favorable factors for long-term investment.",
+    "updated": "2026-02-27T18:16:32.741702"
   },
-  "FITB": {
-    "summary": "FITB는 최근 52주 신고가 경신 및 연간 50% 상승률을 기록하며 강력한 시장 모멘텀과 매수 심리가 형성되어 있습니다. 3% 이상의 배당 수익률은 견고한 펀더멘털을 뒷받침하며, 2026년까지 추가 상승 가능성에 대한 기대감도 존재합니다. 특히 퀀트 등급이 'A급(적극 매수)'으로 평가된 점을 고려할 때, 현재의 강한 수급과 긍정적인 펀더멘털을 바탕으로 한 적극적인 매수 전략이 유효해 보입니다.",
-    "summary_ko": "FITB는 최근 52주 신고가 경신 및 연간 50% 상승률을 기록하며 강력한 시장 모멘텀과 매수 심리가 형성되어 있습니다. 3% 이상의 배당 수익률은 견고한 펀더멘털을 뒷받침하며, 2026년까지 추가 상승 가능성에 대한 기대감도 존재합니다. 특히 퀀트 등급이 'A급(적극 매수)'으로 평가된 점을 고려할 때, 현재의 강한 수급과 긍정적인 펀더멘털을 바탕으로 한 적극적인 매수 전략이 유효해 보입니다.",
-    "summary_en": "Analysis Failed",
-    "updated": "2026-02-06T18:45:05.817432"
+  "KO": {
+    "summary": "",
+    "summary_ko": "",
+    "summary_en": "Coca-Cola (KO) receives a 70.5/100 investment score with an A-grade quantitative rating indicating aggressive buy potential. The recent increase in position by Andra AP fonden suggests institutional confidence in the beverage giant's stability and growth prospects. While some analysts suggest alternative investments, Coca-Cola continues to expand its brand presence through initiatives like the Hard Rock partnership supporting women in music across 1,000 events. The combination of strong quantitative metrics, institutional backing, and strategic brand partnerships positions Coca-Cola as a resilient investment option in the consumer staples sector.",
+    "updated": "2026-02-27T18:17:01.981290"
   },
-  "CMCSA": {
-    "summary": "CMCSA는 퀀트 분석에서 'A급 적극 매수' 등급을 받아 강한 매수 심리와 긍정적인 수급을 보입니다. 펀더멘털 측면에서는 '딥 밸류' 평가와 두 자릿수 주주 수익률이 유지되고 있으며, Xfinity의 멀티 기가 인터넷 서비스 확장으로 성장 동력을 확보하고 있습니다. 외부 경제적 어려움 속에서도 주가가 상승하는 회복력을 보여주므로, 현재 밸류에이션 매력과 사업 확장성을 고려할 때 적극적인 매수 전략이 유효합니다.",
-    "summary_ko": "CMCSA는 퀀트 분석에서 'A급 적극 매수' 등급을 받아 강한 매수 심리와 긍정적인 수급을 보입니다. 펀더멘털 측면에서는 '딥 밸류' 평가와 두 자릿수 주주 수익률이 유지되고 있으며, Xfinity의 멀티 기가 인터넷 서비스 확장으로 성장 동력을 확보하고 있습니다. 외부 경제적 어려움 속에서도 주가가 상승하는 회복력을 보여주므로, 현재 밸류에이션 매력과 사업 확장성을 고려할 때 적극적인 매수 전략이 유효합니다.",
-    "summary_en": "Comcast (CMCSA) receives a strong quantitative \"A-grade\" (Strong Buy) rating with an overall score of 76.3/100. Analysts highlight the stock as a deep value opportunity, anticipating double-digit shareholder returns. Despite broader economic concerns, the company's stock has shown resilience. Ongoing expansion of Xfinity's multi-gig internet services further supports its growth prospects and robust business fundamentals.",
-    "updated": "2026-02-06T18:45:21.219239"
-  },
-  "RMD": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-06T18:45:37.386888"
-  },
-  "AMCR": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-06T18:45:53.546751"
-  },
-  "VZ": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-06T18:46:09.689063"
-  },
-  "LNT": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-06T18:46:25.487534"
-  },
-  "BALL": {
-    "summary": "Ball Corporation은 견조한 실적 발표로 주가가 연간 최고치를 경신하며 강력한 펀더멘털과 긍정적인 시장 모멘텀을 보였습니다. 특히 A급 적극 매수 퀀트 등급과 지난주 15% 상승은 강한 수급과 긍정적인 투자 심리를 반영합니다. 다만, 현재 주가 수준이 다소 비싸다는 의견이 있어, 장기적 관점에서 추가 상승 모멘텀을 주시하며 신중한 매수 전략이 필요합니다.",
-    "summary_ko": "Ball Corporation은 견조한 실적 발표로 주가가 연간 최고치를 경신하며 강력한 펀더멘털과 긍정적인 시장 모멘텀을 보였습니다. 특히 A급 적극 매수 퀀트 등급과 지난주 15% 상승은 강한 수급과 긍정적인 투자 심리를 반영합니다. 다만, 현재 주가 수준이 다소 비싸다는 의견이 있어, 장기적 관점에서 추가 상승 모멘텀을 주시하며 신중한 매수 전략이 필요합니다.",
-    "summary_en": "Analysis Failed",
-    "updated": "2026-02-06T18:46:38.906296"
-  },
-  "CL": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-06T18:46:55.418005"
+  "ABT": {
+    "summary": "Abbott Laboratories는 A급 양적 평가와 70.3점의 종합 점수를 보이며 매력적인 투자 대상입니다. 수급 측면에서는 최근 아스터 캐피탈 매니지먼트와 같은 기관 투자자들의 추가 매수가 감지되고 있습니다. 펀더멘털은 혼합된 주가 성과에도 불구하고 여전히 강력한 성장 가능성을 유지하고 있으며, 이는 매력적인 진입 기회를 제공합니다. 전략적으로는 현재가 수준에서 분산 매수를 통해 장기적인 성장 전망에 투자하는 것이 권장됩니다.",
+    "summary_ko": "Abbott Laboratories는 A급 양적 평가와 70.3점의 종합 점수를 보이며 매력적인 투자 대상입니다. 수급 측면에서는 최근 아스터 캐피탈 매니지먼트와 같은 기관 투자자들의 추가 매수가 감지되고 있습니다. 펀더멘털은 혼합된 주가 성과에도 불구하고 여전히 강력한 성장 가능성을 유지하고 있으며, 이는 매력적인 진입 기회를 제공합니다. 전략적으로는 현재가 수준에서 분산 매수를 통해 장기적인 성장 전망에 투자하는 것이 권장됩니다.",
+    "summary_en": "Abbott Laboratories (ABT) receives a strong quantitative rating of 70.3/100, supporting an aggressive buy recommendation. Despite mixed share performance and conflicting fair value signals, recent institutional investment of $2.92 million from Aster Capital Management suggests confidence in the company. Contrarian analysts view the current pullback as a compelling buying opportunity, highlighting Abbott's profitable growth prospects that may be undervalued by the market. The combination of strong quantitative metrics and institutional support indicates potential for recovery and long-term appreciation.",
+    "updated": "2026-02-27T18:17:28.930597"
   },
   "JNJ": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-06T18:47:11.165624"
+    "summary": "Johnson & Johnson(JNJ)는 70점의 점수와 A급 양적 평가를 바탕으로 견고한 펀더멘털을 유지하고 있으나, 일부 기관의 매도 움직임이 수급 압력으로 작용하고 있습니다. 현재 가치 제공 여부에 대한 시장의 논란이 있지만, 나스닥 대비 상대적인 강세를 보이며 매수 기회를 모색할 수 있습니다. 중장기적 관점에서 분할 매수 전략을 통해 변동성을 관리하면서 펀더멘털 우위를 활용하는 것이 바람직합니다.",
+    "summary_ko": "Johnson & Johnson(JNJ)는 70점의 점수와 A급 양적 평가를 바탕으로 견고한 펀더멘털을 유지하고 있으나, 일부 기관의 매도 움직임이 수급 압력으로 작용하고 있습니다. 현재 가치 제공 여부에 대한 시장의 논란이 있지만, 나스닥 대비 상대적인 강세를 보이며 매수 기회를 모색할 수 있습니다. 중장기적 관점에서 분할 매수 전략을 통해 변동성을 관리하면서 펀더멘털 우위를 활용하는 것이 바람직합니다.",
+    "summary_en": "Johnson & Johnson receives a solid quantitative rating of 70/100 with an aggressive buy recommendation, indicating strong fundamental value. Recent headlines suggest mixed sentiment, with questions about valuation appeal and some institutional selling. The stock appears to be underperforming relative to the Nasdaq, warranting careful consideration of entry points. Despite these concerns, JNJ's long-standing reputation for stability and consistent dividend payments may provide downside protection in volatile markets.",
+    "updated": "2026-02-27T18:17:56.374715"
   },
-  "PPG": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-06T18:47:26.986183"
+  "PEP": {
+    "summary": "PepsiCo(PEP)는 현재 투자자들의 검색이 증가하며 시장 관심이 높은 상태입니다. B급의 양적 평가는 괜찮은 펀더멘털을 보여주지만 명확한 강세 신호는 부족한 상황입니다. 현재 주가가 혼재된 상태에 있어 경쟁사인 Keurig Dr Pepper와의 비교 관점을 고려하면서 단기적 변동성에 대한 전략이 필요합니다. 전반적으로 69.3점의 종합 점수는 중립적인 매수 고려 의견을 뒷받침합니다.",
+    "summary_ko": "PepsiCo(PEP)는 현재 투자자들의 검색이 증가하며 시장 관심이 높은 상태입니다. B급의 양적 평가는 괜찮은 펀더멘털을 보여주지만 명확한 강세 신호는 부족한 상황입니다. 현재 주가가 혼재된 상태에 있어 경쟁사인 Keurig Dr Pepper와의 비교 관점을 고려하면서 단기적 변동성에 대한 전략이 필요합니다. 전반적으로 69.3점의 종합 점수는 중립적인 매수 고려 의견을 뒷받침합니다.",
+    "summary_en": "",
+    "updated": "2026-02-27T18:18:24.080137"
   },
-  "MOS": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-06T18:47:44.651412"
+  "AAPL": {
+    "summary": "애플(AAPL)의 현재 점수는 69.1/100로 보통 수준이며, 양적 분석에서는 B급 매수 고려 의견이 나왔습니다. 수급 측면에서는 25억 기기 생산 능력이 강점으로 작용하지만, 최근 주가 회복에 대한 시장의 회의적인 시각도 존재합니다. 펀더멘털은 강력한 생태계에도",
+    "summary_ko": "애플(AAPL)의 현재 점수는 69.1/100로 보통 수준이며, 양적 분석에서는 B급 매수 고려 의견이 나왔습니다. 수급 측면에서는 25억 기기 생산 능력이 강점으로 작용하지만, 최근 주가 회복에 대한 시장의 회의적인 시각도 존재합니다. 펀더멘털은 강력한 생태계에도",
+    "summary_en": "Apple receives a quantitative score of 69.1/100 with a B-grade rating suggesting consideration for purchase. The company maintains its strong position as a massive device ecosystem with 2.5 billion devices in circulation. However, recent analysis indicates skepticism about Apple's stock recovery and questions the necessity of buying the stock at current levels. Investors should weigh the company's fundamental strength against concerns about its valuation and recent price movements.",
+    "updated": "2026-02-27T18:18:53.693802"
   },
-  "SYY": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-06T18:48:00.874525"
+  "XOM": {
+    "summary": "Exxon Mobil의 펀더멘털은 B급 등급으로 안정적이며, 현재 69점의 점수를 유지하고 있습니다. 수급 측면에서는 유가가 90달러 수준까지 상승할 가능성이 제기되며 이는 주가 상승 요인으로 작용할 수 있습니다. 웰스파고고를 포함한 여러 증권사들이 목표주가를 상향 조정하며 매수 의견을 유지하고 있어 전략적으로 매수 고려가 가능합니다. 향후 에너지 시장의 회복 기대감 속에서 주가 추가 상승 여력이 있는 것으로 평가됩니다.",
+    "summary_ko": "Exxon Mobil의 펀더멘털은 B급 등급으로 안정적이며, 현재 69점의 점수를 유지하고 있습니다. 수급 측면에서는 유가가 90달러 수준까지 상승할 가능성이 제기되며 이는 주가 상승 요인으로 작용할 수 있습니다. 웰스파고고를 포함한 여러 증권사들이 목표주가를 상향 조정하며 매수 의견을 유지하고 있어 전략적으로 매수 고려가 가능합니다. 향후 에너지 시장의 회복 기대감 속에서 주가 추가 상승 여력이 있는 것으로 평가됩니다.",
+    "summary_en": "Exxon Mobil (XOM) presents a moderate investment opportunity with a quantitative score of 69/100, warranting buy consideration. The stock shows potential for further growth as oil prices could reach $90, creating a favorable environment for the energy giant. Supporting this outlook, Wells Fargo recently increased their price target while maintaining a bullish stance on the company. Investors should monitor XOM's ability to capitalize on the potentially strengthening oil market.",
+    "updated": "2026-02-27T18:19:21.534963"
   },
-  "GILD": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-06T18:48:17.044961"
+  "NEE": {
+    "summary": "NEE는 투자자들이 2029년에 주식을 매수하겠다는 20억 달러의 선급 투자를 유치하며 수급 측면에서 강세를 보입니다. 데이터 센터 전력 공급 역할 확대로 펀더멘털 성장 동력이 확보되었으며, 크래머에 의해 불공평하게 하락했다는 평가를 받고 있습니다. 현재 B급 매수 고려 등급과 68.8점의 점수는 중장기 투자 전략에 적합하며, 저평가된 가격에서의 분할 매수가 유리할 것입니다.",
+    "summary_ko": "NEE는 투자자들이 2029년에 주식을 매수하겠다는 20억 달러의 선급 투자를 유치하며 수급 측면에서 강세를 보입니다. 데이터 센터 전력 공급 역할 확대로 펀더멘털 성장 동력이 확보되었으며, 크래머에 의해 불공평하게 하락했다는 평가를 받고 있습니다. 현재 B급 매수 고려 등급과 68.8점의 점수는 중장기 투자 전략에 적합하며, 저평가된 가격에서의 분할 매수가 유리할 것입니다.",
+    "summary_en": "NextEra Energy (NEE) presents a moderate investment opportunity with a score of 68.8/100 and a quantitative \"B grade\" rating suggesting buying consideration. The company recently strengthened its financial position by raising $2 billion through a forward stock sale agreement while expanding its role in the growing data center power market. According to CNBC's Jim Cramer, the stock appears to be undervalued following recent market overreaction, making it potentially attractive for new investors seeking exposure to the renewable energy sector.",
+    "updated": "2026-02-27T18:19:53.215924"
+  },
+  "NFLX": {
+    "summary": "Netflix는 워너브라더스 디스커버리와의 계약을 포기한 후 주가가 10% 가까이 상승하며 수급 측면에서 긍정적인 모멘텀을 보이고 있습니다. 양적 분석에서 B급(매수 고려) 평가를 받은 점은 펀더멘털이 여전히 견고함을 시사합니다. 최근 조정이 매우 좋은 진입 지점을 만들었다는 분석과 67.7/100의 종합 점수를 고려할 때, 단기적 변동성을 활용한 분할 매수 전략이 효과적일 수 있습니다.",
+    "summary_ko": "Netflix는 워너브라더스 디스커버리와의 계약을 포기한 후 주가가 10% 가까이 상승하며 수급 측면에서 긍정적인 모멘텀을 보이고 있습니다. 양적 분석에서 B급(매수 고려) 평가를 받은 점은 펀더멘털이 여전히 견고함을 시사합니다. 최근 조정이 매우 좋은 진입 지점을 만들었다는 분석과 67.7/100의 종합 점수를 고려할 때, 단기적 변동성을 활용한 분할 매수 전략이 효과적일 수 있습니다.",
+    "summary_en": "Netflix (NFLX) presents a B-grade quantitative buying consideration with a score of 67.7/100. The stock recently climbed nearly 10% after terminating its Warner Bros. Discovery deal, indicating positive market reception to this strategic decision. Technical analysis suggests the recent pullback has created an attractive entry point for investors seeking exposure to the streaming platform. This combination of quantitative strength and recent catalyst positions Netflix as a moderately compelling investment opportunity in the media sector.",
+    "updated": "2026-02-27T18:20:26.848893"
+  },
+  "QCOM": {
+    "summary": "퀄컴은 B급 양적 평가를 받아 매수 고려 대상으로 평가되나 67.3점으로 중간 수준의 투자 의견을 보입니다. 펀더멘털 측면에서는 갤럭시용 스냅드래곤 8 엘리트 Gen 5 출시가 주가 상승의 촉매제가 될 수 있으나, 리스크 요인도 존재합니다. 전략적으로는 상승 가능성($184 목표가)과 위협 요소를 모두 감안하여 점진적 매수를 고려해야 합니다.",
+    "summary_ko": "퀄컴은 B급 양적 평가를 받아 매수 고려 대상으로 평가되나 67.3점으로 중간 수준의 투자 의견을 보입니다. 펀더멘털 측면에서는 갤럭시용 스냅드래곤 8 엘리트 Gen 5 출시가 주가 상승의 촉매제가 될 수 있으나, 리스크 요인도 존재합니다. 전략적으로는 상승 가능성($184 목표가)과 위협 요소를 모두 감안하여 점진적 매수를 고려해야 합니다.",
+    "summary_en": "Qualcomm (QCOM) receives a moderate score of 67.3/100 with a B-grade buy recommendation, suggesting balanced potential. While the company faces three significant threats that investors should monitor, the upcoming Snapdragon 8 Elite Gen 5 launch for Galaxy could provide a positive catalyst. Despite the risks, analysts see a potential path for the stock to reach $184, indicating upside opportunity from current levels.",
+    "updated": "2026-02-27T18:20:55.062231"
+  },
+  "MCD": {
+    "summary": "McDonald's는 현재 주가가 사상 최고치를 기록하며 소비재 discretionary 섹터를 상회하는 성과를 보이고 있습니다. B급 양적 평가와 66.9/100 점수를 바탕으로 펀더멘털은 여전히 견고한 상태를 유지하고 있습니다. 가치 중심 전략을 통한 고객 유치 능력이 2026년까지 지속될 경우 매수 고려 대상으로 볼 수 있으며, 현재의 강세는 지속 가능할 전망입니다.",
+    "summary_ko": "McDonald's는 현재 주가가 사상 최고치를 기록하며 소비재 discretionary 섹터를 상회하는 성과를 보이고 있습니다. B급 양적 평가와 66.9/100 점수를 바탕으로 펀더멘털은 여전히 견고한 상태를 유지하고 있습니다. 가치 중심 전략을 통한 고객 유치 능력이 2026년까지 지속될 경우 매수 고려 대상으로 볼 수 있으며, 현재의 강세는 지속 가능할 전망입니다.",
+    "summary_en": "McDonald's (MCD) earns a B-grade buy consideration rating with a score of 66.9/100, reflecting solid investment potential. The stock is currently trading at all-time highs, suggesting strong investor confidence in the company's performance. Analysts are questioning whether McDonald's value strategy can sustain traffic gains through 2026, which will be crucial for its continued outperformance in the consumer discretionary sector. Investors should monitor the company's ability to maintain its value proposition as a key indicator for future growth.",
+    "updated": "2026-02-27T18:21:19.851829"
+  },
+  "CVX": {
+    "summary": "체버론(CVX)은 수급 측면에서 일부 기관 매도 압력이 있으나, 양호한 펀더멘털을 보여 B급 퀀트 평가를 받았습니다. 본질 가치 분석에 따르면 현재 주가는 매력적인 수준에 있을 가능성이 있으며, 특히 안정적인 배당 수익을 추구하는 장기 투자자에게 적합합니다. 총 65.8점의 종합 점수를 바탕으로 현재 가격에서 분할 매수 전략을 고려해 볼 만합니다.",
+    "summary_ko": "체버론(CVX)은 수급 측면에서 일부 기관 매도 압력이 있으나, 양호한 펀더멘털을 보여 B급 퀀트 평가를 받았습니다. 본질 가치 분석에 따르면 현재 주가는 매력적인 수준에 있을 가능성이 있으며, 특히 안정적인 배당 수익을 추구하는 장기 투자자에게 적합합니다. 총 65.8점의 종합 점수를 바탕으로 현재 가격에서 분할 매수 전략을 고려해 볼 만합니다.",
+    "summary_en": "Chevron Corporation (CVX) receives a \"B\" quantitative rating indicating the stock warrants consideration for purchase. While recent institutional selling by US Bancorp DE presents some caution, analysis of intrinsic value suggests potential investment merit. With a modest investment of $3,000, investors could potentially generate significant passive income through Chevron's dividend yield. The stock's overall score of 65.8/100 positions it as a moderate investment opportunity within the energy sector.",
+    "updated": "2026-02-27T18:21:45.969630"
+  },
+  "GS": {
+    "summary": "골드만삭스(GS)는 65.3/100 점수와 B급 양적 평가를 받아 매수 고려 대상으로 분류됩니다. 안드라 AP 펀드의 3,002만 달러 규모 주식 보유는 기관 투자자들의 꾸준한 수요를 보여줍니다. PNC와 비교 시 가치주로 주목받고 있으며, 펀더멘털은 안정적입니다. AI 인덱스 출시 등 전략적 혁신을 통해 사업 다각화에 성공하고 있어 중장기 성장 전망이 긍정적입니다.",
+    "summary_ko": "골드만삭스(GS)는 65.3/100 점수와 B급 양적 평가를 받아 매수 고려 대상으로 분류됩니다. 안드라 AP 펀드의 3,002만 달러 규모 주식 보유는 기관 투자자들의 꾸준한 수요를 보여줍니다. PNC와 비교 시 가치주로 주목받고 있으며, 펀더멘털은 안정적입니다. AI 인덱스 출시 등 전략적 혁신을 통해 사업 다각화에 성공하고 있어 중장기 성장 전망이 긍정적입니다.",
+    "summary_en": "Goldman Sachs Group Inc. (GS) receives a 65.3/100 score with a B-grade quantitative rating suggesting buy consideration. The $30.02 million investment from Swedish pension fund Andra AP fonden demonstrates institutional confidence in the company. While facing value stock comparisons with PNC, Goldman's recent launch of an AI-free index shows strategic differentiation in the current market environment.",
+    "updated": "2026-02-27T18:22:14.850607"
+  },
+  "COST": {
+    "summary": "코스트코는 B급 등급과 64.3점의 점수로 펀더멘털은 견고하나 개선 여지가 있습니다. 산탄데르 은행의 지분 인수 등 기관 투자자들의 관심으로 수급 측면에서 긍정적인 움직임이 있습니다. 향후 1년간 주가는 완만한 상승이 예상되므로 방어적인 포트폴리오 구성을 위한 매수 전략이 적절합니다.",
+    "summary_ko": "코스트코는 B급 등급과 64.3점의 점수로 펀더멘털은 견고하나 개선 여지가 있습니다. 산탄데르 은행의 지분 인수 등 기관 투자자들의 관심으로 수급 측면에서 긍정적인 움직임이 있습니다. 향후 1년간 주가는 완만한 상승이 예상되므로 방어적인 포트폴리오 구성을 위한 매수 전략이 적절합니다.",
+    "summary_en": "Costco (COST) presents a moderately attractive investment opportunity with a score of 64.3/100 and a quantitative \"B-grade buy consideration\" rating. Recent institutional confidence is evidenced by Banco Santander S.A.'s acquisition of COST shares, signaling potential upside. While the stock's one-year trajectory remains speculative, the company's fundamental business model continues to demonstrate resilience in the current retail environment. Investors should consider Costco's strong membership model and consistent performance when evaluating this retail investment.",
+    "updated": "2026-02-27T18:22:44.465374"
+  },
+  "CRM": {
+    "summary": "실리콘밸리 소프트웨어 기업 Salesforce는 최근 실적이 시장 예상을 상회하며 펀더멘털이 개선되고 있습니다. 특히 Agentforce 제품에 대한 수요 증가가 성장 동력으로 작용하고 있습니다. 주가는 실적 발표 후 변동성을 보였으나 B급 등급과 64.3점의 점수는 중장기적으로 매수 고려할 가치가 있음을 시사합니다. 변동성을 감수할 수 있는 투자자에게 분할 매수 전략이 유효할 수 있습니다.",
+    "summary_ko": "실리콘밸리 소프트웨어 기업 Salesforce는 최근 실적이 시장 예상을 상회하며 펀더멘털이 개선되고 있습니다. 특히 Agentforce 제품에 대한 수요 증가가 성장 동력으로 작용하고 있습니다. 주가는 실적 발표 후 변동성을 보였으나 B급 등급과 64.3점의 점수는 중장기적으로 매수 고려할 가치가 있음을 시사합니다. 변동성을 감수할 수 있는 투자자에게 분할 매수 전략이 유효할 수 있습니다.",
+    "summary_en": "Salesforce (CRM) receives a B-grade quantitative rating with a score of 64.3/100, indicating a \"consider buying\" recommendation. The company recently reported earnings that exceeded estimates, partly driven by increasing demand for its Agentforce product. Following the earnings release, the stock exhibited volatility, initially rising before slipping in after-hours trading. Despite short-term price fluctuations, Salesforce's solid earnings performance and growing product demand suggest continued positive momentum for the cloud software leader.",
+    "updated": "2026-02-27T18:23:13.637643"
+  },
+  "BA": {
+    "summary": "보잉(BA)은 지난 1년간 32% 상승했지만 최근 실적 발표 후 4.7% 하락하며 수급에 변화가 나타나고 있습니다. 펀더멘털은 B급으로 평가받으며 63.2/100 점수로 중간 이상의 기업 건강성",
+    "summary_ko": "보잉(BA)은 지난 1년간 32% 상승했지만 최근 실적 발표 후 4.7% 하락하며 수급에 변화가 나타나고 있습니다. 펀더멘털은 B급으로 평가받으며 63.2/100 점수로 중간 이상의 기업 건강성",
+    "summary_en": "Boeing has shown strong performance with a 32% gain over the past year, though it has declined 4.7% since its last earnings report. With a quantitative score of 63.2/100 and a B-grade buy consideration rating, the stock presents a moderate investment opportunity. Investors should note the insider selling by Uma Amuluru as a potential caution signal when evaluating whether Boeing still offers value at current levels.",
+    "updated": "2026-02-27T18:23:46.607541"
+  },
+  "CAT": {
+    "summary": "캐터필러(CAT)는 단기적으로 캣 파이낸셜의 채권 발행으로 주가가 다소 하락했지만, B급 양적 평가와 62.5점의 종합 점수는 펀더멘털이 견고함을 시사합니다. 수급 측면에서는 단기 압박감이 있으나, 투자자들의 관심은 지속되고 있어 향후 추가 상승 여지가 있습니다. 전략적으로는 콘엑스포 전시회 이전의 변동성에 주의하",
+    "summary_ko": "캐터필러(CAT)는 단기적으로 캣 파이낸셜의 채권 발행으로 주가가 다소 하락했지만, B급 양적 평가와 62.5점의 종합 점수는 펀더멘털이 견고함을 시사합니다. 수급 측면에서는 단기 압박감이 있으나, 투자자들의 관심은 지속되고 있어 향후 추가 상승 여지가 있습니다. 전략적으로는 콘엑스포 전시회 이전의 변동성에 주의하",
+    "summary_en": "Caterpillar (CAT) presents a moderate investment opportunity with a quantitative score of 62.5/100, earning a B-grade buy consideration. The stock recently slipped after hours as its financial services arm accessed debt markets ahead of the ConExpo trade show, creating some short-term uncertainty. Analysts are questioning whether the stock has additional upside potential following recent gains, indicating a need for careful evaluation of entry points. Investors should weigh the company's strong position in construction equipment against broader economic conditions affecting the sector.",
+    "updated": "2026-02-27T18:24:20.198618"
+  },
+  "PM": {
+    "summary": "PM의 B급 등급과 62.2/100 점수는 중간 정도의 투자 매력도를 나타냅니다. 최근 주가 상승으로 인해 밸류에이션 측면에서 주목받고 있어, 펀더멘털 검토가 필요한 상황입니다. 전략적으로는 현재 가격대에서 분할",
+    "summary_ko": "PM의 B급 등급과 62.2/100 점수는 중간 정도의 투자 매력도를 나타냅니다. 최근 주가 상승으로 인해 밸류에이션 측면에서 주목받고 있어, 펀더멘털 검토가 필요한 상황입니다. 전략적으로는 현재 가격대에서 분할",
+    "summary_en": "Philip Morris International (PM) currently holds a moderate score of 62.2/100 with a quantitative rating suggesting investors should consider buying the stock. The company has demonstrated recent share price strength, prompting analysis of its current valuation following this upward movement. Historical performance indicates PM has delivered value to investors over time, though the moderate overall score suggests there may be some areas of concern or limitation in the investment thesis. Investors should weigh the positive momentum against the company's fundamental strengths before making investment decisions.",
+    "updated": "2026-02-27T18:24:51.149427"
+  },
+  "EIX": {
+    "summary": "",
+    "summary_ko": "",
+    "summary_en": "Edison International (EIX) has received a strong quantitative A-grade rating with a score of 77.3/100, indicating an active buy recommendation. Morgan Stanley recently increased its price target for the company to $68 from $61, reflecting positive outlook. Despite Andra AP fonden selling shares, the company's latest quarterly and annual earnings report demonstrates solid performance that supports the investment thesis.",
+    "updated": "2026-02-27T19:01:42.833831"
+  },
+  "ALL": {
+    "summary": "Network Error",
+    "summary_ko": "Network Error",
+    "summary_en": "The Allstate Corporation (ALL) receives a strong quantitative rating with a score of 77.1/100 and an \"A grade\" active buy recommendation. This positive assessment suggests the insurance company offers solid investment potential based on fundamental metrics. Investors should consider ALL's current valuation position within the broader insurance sector as part of their portfolio allocation strategy.",
+    "updated": "2026-02-27T19:02:27.854694"
+  },
+  "KEYS": {
+    "summary": "Keysight(KEPS)는 최근 시장에서 +23%의 상승세를 보이며 강력한 수급을 나타내고 있으며, 양호한 실적 발표와 AI 관련 성장 전망이 단기 반등을 이끌었습니다. 펀더멘털 측면에서는 예상을 뛰어넘는 실적과 AI 분야에서의 강력한 가이던스가 기본적 가치를 뒷받침하고 있습니다. A급(적극 매수)의 양적 평가와 삼성전자와의 위성 통신 기술 파트너십은 기술적 접점을 통해 중장기적인 성장 가능성을 시사합니다.",
+    "summary_ko": "Keysight(KEPS)는 최근 시장에서 +23%의 상승세를 보이며 강력한 수급을 나타내고 있으며, 양호한 실적 발표와 AI 관련 성장 전망이 단기 반등을 이끌었습니다. 펀더멘털 측면에서는 예상을 뛰어넘는 실적과 AI 분야에서의 강력한 가이던스가 기본적 가치를 뒷받침하고 있습니다. A급(적극 매수)의 양적 평가와 삼성전자와의 위성 통신 기술 파트너십은 기술적 접점을 통해 중장기적인 성장 가능성을 시사합니다.",
+    "summary_en": "Keysight Technologies (KEYS) demonstrates strong investment potential with a quantitative rating of aggressive buy and a score of 76.3/100. The stock recently surged 23% following blowout earnings and robust guidance fueled by AI applications, which also triggered a short squeeze. The company is expanding its technological leadership through partnership with Samsung on Starlink-style satellite-to-phone 5G testing. These factors combined suggest Keysight maintains strong momentum in the electronic measurement and testing equipment market.",
+    "updated": "2026-02-27T19:02:56.471387"
+  },
+  "MKC": {
+    "summary": "McCormick 주식은 8일 연속 상승하며 17% 급등하는 등 강한 수급을 보이고 있으나 일부 조정도 나타나고 있습니다. 펀더멘털은 76.1/100의 점수와 A급 양적 평가로 견조하며, 제퍼리스의 주가 상승",
+    "summary_ko": "McCormick 주식은 8일 연속 상승하며 17% 급등하는 등 강한 수급을 보이고 있으나 일부 조정도 나타나고 있습니다. 펀더멘털은 76.1/100의 점수와 A급 양적 평가로 견조하며, 제퍼리스의 주가 상승",
+    "summary_en": "McCormick (MKC) receives a strong quantitative buy rating with a score of 76.1/100, indicating solid fundamentals. The stock has experienced recent volatility with a nosedive followed by a 17% surge during an eight-day winning streak attributed to sector rotation. Jefferies Financial Group forecasts strong price appreciation for the company, suggesting confidence in its future performance despite the market fluctuations.",
+    "updated": "2026-02-27T19:03:26.353285"
+  },
+  "CB": {
+    "summary": "Chubb Limited(CB)는 33년 연배당 실적과 주당 $4.08 배당 목표로 안정적인 펀더멘털을 보여줍니다. 최근 트렌딩 종목으로 부상하며 수급 긍정성이 높아지고 있습니다. A급 양적 평가는 적극적인 매수 전략을 지지하며,",
+    "summary_ko": "Chubb Limited(CB)는 33년 연배당 실적과 주당 $4.08 배당 목표로 안정적인 펀더멘털을 보여줍니다. 최근 트렌딩 종목으로 부상하며 수급 긍정성이 높아지고 있습니다. A급 양적 평가는 적극적인 매수 전략을 지지하며,",
+    "summary_en": "Chubb Limited demonstrates strong investment potential with its 75.9/100 overall score and A-grade quantitative rating. The company has extended its impressive 33-year dividend streak, with a target of $4.08 per share, reflecting financial stability and shareholder commitment. As a trending stock in the market, Chubb maintains an attractive profile for investors seeking consistent returns and dividend growth.",
+    "updated": "2026-02-27T19:03:55.220668"
+  },
+  "MSI": {
+    "summary": "MSI는 A급 양적 평가와 75.8/100 점수를 바탕으로 강력한 펀더멘털을 보여주고 있으며, 2025년 실적 전망도 긍정적입니다. 수급 측면에서는 일부 기관의 매도 압력이 있지만 안정적인 배당 정책(1.21달러 현금배당)이 지속적인 투자 매력을 유지합니다. 전략적으로 향후 예상되는 대규모 자사주 매입 프로그램이 주주 가치 제고에 기여할 수 있어 장기 투자 전망이 밝습니다.",
+    "summary_ko": "MSI는 A급 양적 평가와 75.8/100 점수를 바탕으로 강력한 펀더멘털을 보여주고 있으며, 2025년 실적 전망도 긍정적입니다. 수급 측면에서는 일부 기관의 매도 압력이 있지만 안정적인 배당 정책(1.21달러 현금배당)이 지속적인 투자 매력을 유지합니다. 전략적으로 향후 예상되는 대규모 자사주 매입 프로그램이 주주 가치 제고에 기여할 수 있어 장기 투자 전망이 밝습니다.",
+    "summary_en": "Motorola Solutions (MSI) receives a strong 75.8/100 score with a quantitative \"A-grade\" aggressive buy recommendation. The company demonstrates shareholder commitment through a $1.21 cash dividend while maintaining a positive outlook for 2025 results and potential share buybacks. Despite some institutional selling, the combination of solid fundamentals, returning capital to shareholders, and future growth prospects makes MSI an attractive investment opportunity.",
+    "updated": "2026-02-27T19:04:23.849022"
+  },
+  "BALL": {
+    "summary": "Ball Corporation demonstrates strong fundamentals with its A-grade quantitative rating of 75.8, indicating solid underlying value and supporting an aggressive buy stance. However, supply/demand dynamics show mixed signals, including institutional selling by Bradley Foster & Sargent Inc. offset by robust retail demand for Banana Ball merchandise and a significant 18% price surge driven by analyst upgrades. The recent five-day winning streak reflects positive short-term momentum fueled by improved analyst sentiment. Investors should consider the strong quantitative foundation while monitoring the balance between institutional outflows and rising retail/analyst support for sustained upside potential.",
+    "summary_ko": "Ball Corporation demonstrates strong fundamentals with its A-grade quantitative rating of 75.8, indicating solid underlying value and supporting an aggressive buy stance. However, supply/demand dynamics show mixed signals, including institutional selling by Bradley Foster & Sargent Inc. offset by robust retail demand for Banana Ball merchandise and a significant 18% price surge driven by analyst upgrades. The recent five-day winning streak reflects positive short-term momentum fueled by improved analyst sentiment. Investors should consider the strong quantitative foundation while monitoring the balance between institutional outflows and rising retail/analyst support for sustained upside potential.",
+    "summary_en": "Ball Corporation (BALL) presents a strong investment opportunity with an 'A-grade' aggressive buy rating and a quantitative score of 75.8/100. The stock has recently surged 18% over a five-day winning streak following analyst upgrades, indicating positive market sentiment. While institutional selling by Bradley Foster & Sargent may raise some caution, retail enthusiasm surrounding Banana Ball merchandise demonstrates strong brand recognition. With recent analyst support and retail momentum, Ball Corporation appears positioned for continued positive performance.",
+    "updated": "2026-02-27T19:05:00.576670"
+  },
+  "ZTS": {
+    "summary": "ZTS는 A급 펀더멘털을 바탕으로 75.3점의 높은 투자 점수를 획득했으며, 안드라 AP 펀드의 3,924만 달러 투자는 안정적인 수급을 시사합니다. 주가는 단기 강세를 보였으나 장기 약세 요인이 남아있어 현재 수준에서 신중한 접근이 필요합니다. 동물 건강 분야의 선두 기업으로서 2026년까지의 성장 전망이 긍정적이므로 장기 투자 관점에서 포트폴리오에 포함할 가치가 있습니다.",
+    "summary_ko": "ZTS는 A급 펀더멘털을 바탕으로 75.3점의 높은 투자 점수를 획득했으며, 안드라 AP 펀드의 3,924만 달러 투자는 안정적인 수급을 시사합니다. 주가는 단기 강세를 보였으나 장기 약세 요인이 남아있어 현재 수준에서 신중한 접근이 필요합니다. 동물 건강 분야의 선두 기업으로서 2026년까지의 성장 전망이 긍정적이므로 장기 투자 관점에서 포트폴리오에 포함할 가치가 있습니다.",
+    "summary_en": "Zoetis (ZTS) receives a strong quantitative rating of A-grade (aggressive buy) with a solid score of 75.3/100, indicating favorable investment potential. The company has demonstrated confidence from institutional investors, as evidenced by Andra AP fonden's $39.24 million stock position. While the stock has shown recent price strength following longer-term weakness, upcoming participation in Bank of America's animal health summit could provide additional visibility and positive catalysts for investors.",
+    "updated": "2026-02-27T19:05:37.011885"
+  },
+  "ROST": {
+    "summary": "Ross Stores는 분기 실적 발표를 앞두고 모멘텀을 보이며 수급이 긍정적입니다. 펀더멘털 측면에서 A급 양적 평가와 가속화되는 카드 지출 데이터가 실적 개선을 시사합니다. 180달러 목표가와 양호한 모멘텀을 고려할 때 적극적인 매수 전략이 유효하며, 실적 발표 이후 추가 상승 가능성에 주목해야 합니다.",
+    "summary_ko": "Ross Stores는 분기 실적 발표를 앞두고 모멘텀을 보이며 수급이 긍정적입니다. 펀더멘털 측면에서 A급 양적 평가와 가속화되는 카드 지출 데이터가 실적 개선을 시사합니다. 180달러 목표가와 양호한 모멘텀을 고려할 때 적극적인 매수 전략이 유효하며, 실적 발표 이후 추가 상승 가능성에 주목해야 합니다.",
+    "summary_en": "Ross Stores demonstrates strong investment potential with an A-grade quantitative rating and 75.1/100 score, suggesting an aggressive buy recommendation. The stock shows promising momentum ahead of Q4 earnings results while benefiting from accelerating consumer spending patterns that recently prompted analysts to establish a $180 price target. With positive sentiment building around the company's performance and new options becoming available, investors may want to consider this opportunity before the upcoming earnings report potentially drives the stock higher.",
+    "updated": "2026-02-27T19:06:04.847814"
+  },
+  "DE": {
+    "summary": "DE는 A급 양적 평가에 따른 적극 매수 의견이 제시됩니다. 바이어와의 정밀 농업 생태계 확대를 통한 기술 경쟁력 강화가 펀더멘털 개선으로 이어지고 있습니다. 농업 사이클이 바닥을 다지고 있으며, 이는 수급 개선 요인으로 작용하고 있습니다. 최근 실적 개선에 따른 주가 상승 추세가 지속될 경우, 농업 장비 분야의 선두 기업으로서의 장기 성장 전략이 유효할 것입니다.",
+    "summary_ko": "DE는 A급 양적 평가에 따른 적극 매수 의견이 제시됩니다. 바이어와의 정밀 농업 생태계 확대를 통한 기술 경쟁력 강화가 펀더멘털 개선으로 이어지고 있습니다. 농업 사이클이 바닥을 다지고 있으며, 이는 수급 개선 요인으로 작용하고 있습니다. 최근 실적 개선에 따른 주가 상승 추세가 지속될 경우, 농업 장비 분야의 선두 기업으로서의 장기 성장 전략이 유효할 것입니다.",
+    "summary_en": "Deere & Company (DE) receives a solid 74.8/100 score with an A-grade aggressive buy rating, indicating strong fundamentals. The stock has recently surged following positive earnings results as the agricultural cycle appears to be bottoming out. Deere's strategic partnership with Bayer to enhance its precision farming ecosystem positions the company well for future growth as the sector recovers.",
+    "updated": "2026-02-27T19:06:31.583293"
+  },
+  "PCG": {
+    "summary": "PCG는 양호한 펀더멘털을 바탕으로 A급 적극 매수 등급을 받았으며, 분기 배당금 지급 일정을 공개하며 안정적인 수익성을 보여줍니다. 전기차 전환에 따른 에너지 비용 변화를 보여주는 새로운 도구 개발과 데이터 센터 관련 테마로 시장의 관심이 증가하고 있습니다. 새로운 목표와 전략적 방향성 제시로 주식에 대한 수요가 지속될 것으로 예상되며, 현재 기술적 지표와 펀더멘털을 고려할 때 매수 전략이 적절합니다.",
+    "summary_ko": "PCG는 양호한 펀더멘털을 바탕으로 A급 적극 매수 등급을 받았으며, 분기 배당금 지급 일정을 공개하며 안정적인 수익성을 보여줍니다. 전기차 전환에 따른 에너지 비용 변화를 보여주는 새로운 도구 개발과 데이터 센터 관련 테마로 시장의 관심이 증가하고 있습니다. 새로운 목표와 전략적 방향성 제시로 주식에 대한 수요가 지속될 것으로 예상되며, 현재 기술적 지표와 펀더멘털을 고려할 때 매수 전략이 적절합니다.",
+    "summary_en": "PG&E (PCG) presents a solid investment opportunity with a quantitative rating indicating aggressive buy potential. The company is demonstrating innovation through new customer tools for energy bill management while shifting its strategic narrative with new targets and data center initiatives. Additionally, PG&E's commitment to shareholder value is evidenced by its establishment of quarterly dividend dates. The combination of strategic positioning, customer-focused innovation, and shareholder returns makes PCG an attractive utility investment.",
+    "updated": "2026-02-27T19:07:00.343075"
+  },
+  "LIN": {
+    "summary": "LIN은 74.3점의 점수와 A급 양적 등급을 기반으로 견고한 펀더멘털을 보여주며, 분석가 상향 조정으로 12% 상승과 11일 연속 상승세로 수급이 강한 흐름입니다. APAC 담당 상무이사의 999주 소량 매물이 있으나 시장 영향은 제한적일 것입니다. 다년간 강세장을 지속한 후에도 양적 등급이 매수 신호를 유지하고 있어, 적극적 매수",
+    "summary_ko": "LIN은 74.3점의 점수와 A급 양적 등급을 기반으로 견고한 펀더멘털을 보여주며, 분석가 상향 조정으로 12% 상승과 11일 연속 상승세로 수급이 강한 흐름입니다. APAC 담당 상무이사의 999주 소량 매물이 있으나 시장 영향은 제한적일 것입니다. 다년간 강세장을 지속한 후에도 양적 등급이 매수 신호를 유지하고 있어, 적극적 매수",
+    "summary_en": "Linde (LIN) demonstrates strong investment potential with its 74.3/100 score and \"A grade\" strong buy quantitative rating. The stock has recently surged 12% during an 11-day winning streak following analyst upgrades, despite questions about its multi-year rally. While minor insider selling occurred recently, the overall technical and fundamental indicators remain favorable for continued growth. Investors may consider taking positions despite the recent run-up, as the quantitative strength suggests potential for further appreciation.",
+    "updated": "2026-02-27T19:07:28.164098"
   },
   "KMI": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-06T18:48:33.867419"
+    "summary": "Kinder Morgan(KMI)는 기록적인 순이익과 성장하는 천연가스 파이프라인 밀로그를 바탕으로 견고한 펀더멘�",
+    "summary_ko": "Kinder Morgan(KMI)는 기록적인 순이익과 성장하는 천연가스 파이프라인 밀로그를 바탕으로 견고한 펀더멘�",
+    "summary_en": "Kinder Morgan (KMI) demonstrates strong fundamentals with record net income and a growing natural gas pipeline backlog indicating robust future revenue potential. Trading with a favorable score of 74.3/100 and receiving a quantitative \"Strong Buy\" rating, the company appears well-positioned in the energy infrastructure sector. Analyst consensus at \"Moderate Buy\" reflects confidence in KMI's ability to provide steady income to investor portfolios. The combination of financial performance and market positioning makes KMI an attractive investment for those seeking exposure to energy infrastructure with income potential.",
+    "updated": "2026-02-27T19:08:06.478119"
   },
-  "IEX": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-06T18:48:49.914220"
+  "HIG": {
+    "summary": "Hartford Insurance Group (HIG)에 대한 투자 의견은 긍정적입니다. 펀더멘털 측면에서 2026년까지 29억 달러의 배당금을 예상하며 재무 건전성이 높습니다. 수급 측면에서는 시티그룹 등 기관 투자자들의 지분 확대로 매수 압력이 증가하고 있습니다. 전략적으로 A급 양적 평가와 현재 가격 움직임을 활용하여 적극적인 매수 포지션을 고려할 수 있습니다.",
+    "summary_ko": "Hartford Insurance Group (HIG)에 대한 투자 의견은 긍정적입니다. 펀더멘털 측면에서 2026년까지 29억 달러의 배당금을 예상하며 재무 건전성이 높습니다. 수급 측면에서는 시티그룹 등 기관 투자자들의 지분 확대로 매수 압력이 증가하고 있습니다. 전략적으로 A급 양적 평가와 현재 가격 움직임을 활용하여 적극적인 매수 포지션을 고려할 수 있습니다.",
+    "summary_en": "Hartford Insurance Group (HIG) presents a compelling investment opportunity with its strong quantitative rating of 74/100, indicating favorable fundamentals. The company's projection of $2.9 billion in operating dividends for 2026 demonstrates robust financial planning and shareholder value commitment. Recent institutional confidence is evidenced by Citigroup's increased stake in the company, suggesting professional investors recognize its potential. The stock's price action analysis further supports the positive outlook for this insurance provider.",
+    "updated": "2026-02-27T19:08:43.710962"
   },
-  "HBAN": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-06T18:49:06.324353"
-  },
-  "SHW": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-06T18:49:22.893968"
-  },
-  "MU": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-07T17:21:08.869005"
+  "BMY": {
+    "summary": "Bristol Myers Squibb (BMY) shows mixed supply dynamics with recent institutional selling by Clifford Swan offset by strong quantitative A-grade ratings. Fundamentally, the company is identified as a strong value stock, though questions remain about whether current valuations fully reflect its 2024 results and product pipeline outlook. Given the favorable quantitative analysis and value proposition, investors should consider accumulating positions during pullbacks while monitoring pipeline developments for potential catalysts.",
+    "summary_ko": "Bristol Myers Squibb (BMY) shows mixed supply dynamics with recent institutional selling by Clifford Swan offset by strong quantitative A-grade ratings. Fundamentally, the company is identified as a strong value stock, though questions remain about whether current valuations fully reflect its 2024 results and product pipeline outlook. Given the favorable quantitative analysis and value proposition, investors should consider accumulating positions during pullbacks while monitoring pipeline developments for potential catalysts.",
+    "summary_en": "Bristol Myers Squibb (BMY) shows strong investment potential with a score of 73.8/100 and an A-grade active buy recommendation. Despite some institutional selling, analysts identify BMY as a compelling value stock. The market is assessing how the company's 2024 results and product pipeline outlook are reflected in its current valuation, potentially creating an opportunity for investors seeking exposure to a solid pharmaceutical company with promising prospects.",
+    "updated": "2026-02-27T19:09:18.201398"
   },
   "CPAY": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-07T17:21:25.156561"
+    "summary": "CPAY는 A급 양적 평가와 73.8/100 점수로 우수한 펀더멘털을 보여주고 있습니다. Clifford Swan 투자자문 등 기관 투자자들의 대규모 포지션 구축은 수급 측면에서 긍정적 신호입니다. 모멘텀이 강한 종목으로 분류되며, 중장기 성장성을 고려한 적극적 매수 전략이 유효합니다. 향후 주가 변동성에 대비한 접근이 필요합니다.",
+    "summary_ko": "CPAY는 A급 양적 평가와 73.8/100 점수로 우수한 펀더멘털을 보여주고 있습니다. Clifford Swan 투자자문 등 기관 투자자들의 대규모 포지션 구축은 수급 측면에서 긍정적 신호입니다. 모멘텀이 강한 종목으로 분류되며, 중장기 성장성을 고려한 적극적 매수 전략이 유효합니다. 향후 주가 변동성에 대비한 접근이 필요합니다.",
+    "summary_en": "Corpay (CPAY) presents a strong investment opportunity with its quantitative rating of \"A급\" and overall score of 73.8/100, supporting an aggressive buy recommendation. Recent analysis identifies CPAY as a strong momentum stock, which aligns with the $9.16 million position held by institutional investor Clifford Swan Investment Counsel LLC. The company's announcement of its 2026 Annual Meeting date demonstrates its stability and forward-looking management approach. Investors should consider CPAY's positive momentum and institutional backing as indicators of its potential for continued growth.",
+    "updated": "2026-02-27T19:09:43.155066"
   },
-  "DRI": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-07T17:21:40.443001"
-  },
-  "AOS": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-07T17:21:55.806842"
-  },
-  "PSA": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-07T17:22:11.327000"
-  },
-  "T": {
-    "summary": "Rate Limit - Try again later",
-    "summary_ko": "Rate Limit - Try again later",
-    "summary_en": "Rate Limit - Try again later",
-    "updated": "2026-02-07T17:22:26.765971"
+  "PH": {
+    "summary": "Parker-Hannifin Corporation(PH)은 Banco Santander의 지분 증가로 기관 매수 수요가 확인되었습니다. 73.6/100 점수와 A급 양적 평가는 견실한 펀더멘털을 반영합니다. 전략적 인수를 통한 시너지 가속화로 성장 전략이 효과적으로 실행되고 있으며, 이는 향후 실적 개선에 긍정적인 기여를 할 것입니다. 종합적으로 매수 관점에서 유망한 투자 기회를 제공합니다.",
+    "summary_ko": "Parker-Hannifin Corporation(PH)은 Banco Santander의 지분 증가로 기관 매수 수요가 확인되었습니다. 73.6/100 점수와 A급 양적 평가는 견실한 펀더멘털을 반영합니다. 전략적 인수를 통한 시너지 가속화로 성장 전략이 효과적으로 실행되고 있으며, 이는 향후 실적 개선에 긍정적인 기여를 할 것입니다. 종합적으로 매수 관점에서 유망한 투자 기회를 제공합니다.",
+    "summary_en": "Parker-Hannifin (PH) demonstrates strong investment potential with a score of 73.6/100 and a quantitative \"A-grade\" buy recommendation. The company is successfully accelerating synergies through strategic acquisitions, positioning itself for enhanced value creation. Institutional confidence in PH is evidenced by Banco Santander recently growing their position in the stock. These factors combined suggest PH represents a compelling investment opportunity with solid fundamentals and positive momentum.",
+    "updated": "2026-02-27T19:10:03.801595"
   }
 }

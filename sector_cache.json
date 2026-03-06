@@ -23,5 +23,11 @@
   "BALL": "Cons",
   "AMCR": "Cons",
   "MU": "Tech",
-  "CPAY": "Tech"
+  "CPAY": "Tech",
+  "KEYS": "Tech",
+  "CB": "Fin",
+  "ROST": "Cons",
+  "DE": "Indust",
+  "PCG": "Util",
+  "HIG": "Fin"
 }

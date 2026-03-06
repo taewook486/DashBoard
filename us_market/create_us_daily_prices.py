@@ -7,12 +7,19 @@ Similar to create_complete_daily_prices.py for Korean stocks
 """
 
 import os
+import sys
+import io
 import pandas as pd
 import yfinance as yf
 import logging
 from datetime import datetime, timedelta
 from typing import Dict, List
 from tqdm import tqdm
+
+# Fix UTF-8 encoding for Windows console
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 # Logging Configuration
 logging.basicConfig(

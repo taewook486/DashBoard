@@ -33,7 +33,7 @@ class PortfolioRiskAnalyzer:
                 'matrix': corr.round(2).to_dict()
             }
 
-            with open('portfolio_risk.json', 'w') as f:
+            with open('portfolio_risk.json', 'w', encoding='utf-8') as f:
                 json.dump(result, f, indent=2)
             logging.info(f"Risk Analysis: Volatility {vol*100:.1f}%")
 

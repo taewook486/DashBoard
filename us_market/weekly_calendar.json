@@ -1,11 +1,11 @@
 {
-  "updated": "2026-02-27T07:48:53.319522",
+  "updated": "2026-02-27T19:33:34.327681",
   "events": [
     {
       "date": "2025-12-10",
       "event": "FOMC Interest Rate Decision",
       "impact": "High",
-      "description": "Fed rate decision.\n\n\ud83e\udd16 AI: The FOMC's interest rate decision directly influences the cost of borrowing money, immediately impacting bond yields. This shift in borrowing costs and risk-free returns then affects the valuation of stocks, strengthens or weakens the dollar, and influences commodity prices."
+      "description": "Fed rate decision."
     }
   ],
   "week_start": "2026-02-27"

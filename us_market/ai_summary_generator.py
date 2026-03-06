@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 AI Stock Summary Generator
-Generates investment summaries using OpenAI GPT-4o Mini
+Generates investment summaries using OpenAI GPT-4.1
 """
 
 import os
@@ -41,7 +41,7 @@ class ZAIAnalyzer:
         self.key = os.getenv('ZAI_API_KEY')
         # Z.ai Coding Plan base URL
         self.base_url = "https://api.z.ai/api/coding/paas/v4"
-        self.model = "glm-4-plus"  # Z.ai's latest model
+        self.model = "glm-4.5"  # Z.ai's latest model (2025-07)
         self.min_request_interval = 2  # Minimum seconds between requests
 
     def generate(self, ticker, data, news, lang='ko'):
@@ -204,7 +204,7 @@ Req: 3-4 sentence investment summary. No emojis, be concise."""
 class OpenAIAnalyzer:
     def __init__(self):
         self.key = os.getenv('OPENAI_API_KEY')
-        self.model = "gpt-4o-mini"
+        self.model = "gpt-4.1"  # Latest OpenAI model (2025-04)
 
     def generate(self, ticker, data, news, lang='ko'):
         if not self.key:

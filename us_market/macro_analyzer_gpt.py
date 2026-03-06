@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 GPT-Only Macro Market Analyzer
-- Uses OpenAI GPT-4o Mini / GPT-4o exclusively
+- Uses OpenAI GPT-4.1 exclusively
 - Generates separate GPT analysis files for UI model toggle feature
 """
 
@@ -100,8 +100,8 @@ class GPTAnalyzer:
         self.api_key = os.getenv('OPENAI_API_KEY')
         # Try multiple model options
         self.models = [
-            "gpt-4o-mini",  # Primary: Cheap and fast
-            "gpt-4o"        # Fallback: More capable
+            "gpt-4.1",  # Primary: Latest (2025-04), faster and cheaper
+            "gpt-4o"    # Fallback: Previous generation
         ]
         self.base_url = "https://api.openai.com/v1/chat/completions"
 
@@ -244,7 +244,7 @@ class GPTOnlyMacroAnalyzer:
                 'timestamp': datetime.now().isoformat(),
                 'macro_indicators': data,
                 'ai_analysis': analysis_ko,
-                'model': 'GPT-4o'
+                'model': 'GPT-4.1'
             }
 
             ko_path = os.path.join(self.data_dir, 'macro_analysis_gpt.json')
@@ -257,7 +257,7 @@ class GPTOnlyMacroAnalyzer:
                 'timestamp': datetime.now().isoformat(),
                 'macro_indicators': data,
                 'ai_analysis': analysis_en,
-                'model': 'GPT-4o'
+                'model': 'GPT-4.1'
             }
 
             en_path = os.path.join(self.data_dir, 'macro_analysis_gpt_en.json')

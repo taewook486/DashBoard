@@ -50,7 +50,7 @@ class OptionsFlowAnalyzer:
             if 'error' not in res:
                 results.append(res)
 
-        with open('options_flow.json', 'w') as f:
+        with open('options_flow.json', 'w', encoding='utf-8') as f:
             json.dump({'options_flow': results}, f, indent=2)
         logger.info("Saved options_flow.json")
 

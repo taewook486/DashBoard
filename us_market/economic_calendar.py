@@ -71,7 +71,7 @@ class EconomicCalendar:
             'events': events,
             'week_start': datetime.now().strftime('%Y-%m-%d')
         }
-        with open(self.output, 'w') as f:
+        with open(self.output, 'w', encoding='utf-8') as f:
             json.dump(output, f, indent=2)
         logging.info("Saved economic calendar")
 

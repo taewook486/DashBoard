@@ -49,7 +49,7 @@ class InsiderTracker:
                 score = sum(10 for a in activities if a['value'] > 100000)
                 results[t] = {'score': score, 'transactions': activities[:5]}
 
-        with open(self.output_file, 'w') as f:
+        with open(self.output_file, 'w', encoding='utf-8') as f:
             json.dump({'details': results}, f, indent=2)
         logger.info("Saved insider_moves.json")
 

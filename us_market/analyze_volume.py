@@ -6,10 +6,17 @@ Calculates OBV, Accumulation/Distribution Line, Volume Surge Detection
 """
 
 import os
+import sys
+import io
 import pandas as pd
 import logging
 from typing import Dict, Optional
 from tqdm import tqdm
+
+# Fix UTF-8 encoding for Windows console
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 # Logging Configuration
 logging.basicConfig(

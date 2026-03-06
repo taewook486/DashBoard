@@ -62,11 +62,11 @@ class FinalReportGenerator:
             p['rank'] = i
 
         # Save Report
-        with open(os.path.join(self.data_dir, 'final_top10_report.json'), 'w') as f:
+        with open(os.path.join(self.data_dir, 'final_top10_report.json'), 'w', encoding='utf-8') as f:
             json.dump({'top_picks': top_picks}, f, indent=2, ensure_ascii=False)
 
         # Save for Dashboard
-        with open(os.path.join(self.data_dir, 'smart_money_current.json'), 'w') as f:
+        with open(os.path.join(self.data_dir, 'smart_money_current.json'), 'w', encoding='utf-8') as f:
             json.dump({'picks': top_picks}, f, indent=2, ensure_ascii=False)
 
         print(f"Generated Final Report for {len(top_picks)} stocks")
