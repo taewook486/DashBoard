@@ -29,5 +29,12 @@
   "ROST": "Cons",
   "DE": "Indust",
   "PCG": "Util",
-  "HIG": "Fin"
+  "HIG": "Fin",
+  "CTRA": "Energy",
+  "OKE": "Energy",
+  "DTE": "Util",
+  "ATO": "Util",
+  "GEV": "Indust",
+  "AEP": "Util",
+  "KDP": "Staple"
 }

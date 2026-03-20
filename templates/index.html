@@ -10,6 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
@@ -144,12 +145,12 @@
     <header class="h-14 border-b koyfin-border flex items-center px-4 justify-between shrink-0 bg-[#121212]">
         <div class="flex items-center gap-4">
             <!-- Sidebar Toggle / Menu -->
-            <button class="text-gray-400 hover:text-white"><i class="fas fa-bars"></i></button>
+            <button class="text-gray-400 hover:text-white" aria-label="Toggle sidebar"><i class="fas fa-bars" aria-hidden="true"></i></button>
 
             <!-- Breadcrumb / Title Area -->
             <div class="flex items-center gap-2 text-sm">
-                <button class="text-gray-500 hover:text-white flex items-center gap-1 text-xs font-medium">
-                    <i class="fas fa-chevron-left"></i> Back
+                <button class="text-gray-500 hover:text-white flex items-center gap-1 text-xs font-medium" aria-label="Go back">
+                    <i class="fas fa-chevron-left" aria-hidden="true"></i> Back
                 </button>
                 <div class="h-4 w-px bg-[#333] mx-2"></div>
                 <h1 id="main-header-title" class="text-lg font-bold text-white tracking-tight">🇰🇷 KR Market</h1>
@@ -157,14 +158,15 @@
         </div>
 
         <!-- Search Bar -->
-        <div class="flex-1 max-w-xl mx-8">
+        <div class="flex-1 max-w-xl mx-8" role="search">
             <div class="relative group">
                 <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                    <i class="fas fa-search text-gray-600 group-focus-within:text-blue-500"></i>
+                    <i class="fas fa-search text-gray-600 group-focus-within:text-blue-500" aria-hidden="true"></i>
                 </div>
-                <input type="text"
+                <input type="text" id="stock-search-input"
                     class="block w-full pl-10 pr-3 py-1.5 border border-[#333] rounded bg-[#1a1a1a] text-gray-300 placeholder-gray-600 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 sm:text-sm transition-colors"
-                    placeholder="Search for a name, ticker, or function (/)">
+                    placeholder="Search for a name, ticker, or function (/)"
+                    aria-label="Search stocks">
                 <div class="absolute inset-y-0 right-0 pr-2 flex items-center pointer-events-none">
                     <span class="text-gray-600 text-xs border border-[#333] rounded px-1.5">/</span>
                 </div>
@@ -174,33 +176,33 @@
         <!-- Action Buttons -->
         <div class="flex items-center gap-2">
             <button
-                onclick="createMarketReport()"
+                data-action="createMarketReport"
                 class="bg-[#1a1a1a] hover:bg-[#2a2a2a] text-gray-300 border border-[#333] px-3 py-1.5 rounded text-xs font-medium flex items-center gap-2 transition-colors">
-                <i class="far fa-file-alt"></i> Create Report
+                <i class="far fa-file-alt" aria-hidden="true"></i> Create Report
             </button>
             <button
                 class="bg-[#1a1a1a] hover:bg-[#2a2a2a] text-gray-300 border border-[#333] px-3 py-1.5 rounded text-xs font-medium flex items-center gap-2 transition-colors">
-                <i class="far fa-sticky-note"></i> My Notes
+                <i class="far fa-sticky-note" aria-hidden="true"></i> My Notes
             </button>
             <button
                 class="bg-[#1a1a1a] hover:bg-[#2a2a2a] text-gray-300 border border-[#333] px-3 py-1.5 rounded text-xs font-medium flex items-center gap-2 transition-colors">
-                <i class="fas fa-share-alt"></i> Share
+                <i class="fas fa-share-alt" aria-hidden="true"></i> Share
             </button>
             <button
                 class="bg-[#e0e0e0] hover:bg-white text-black border border-transparent px-3 py-1.5 rounded text-xs font-bold flex items-center gap-2 transition-colors">
-                <i class="fas fa-pen"></i> Edit Portfolio
+                <i class="fas fa-pen" aria-hidden="true"></i> Edit Portfolio
             </button>
         </div>
     </header>
 
     <!-- Tab Navigation -->
-    <div class="h-10 border-b koyfin-border flex items-center px-4 gap-1 bg-[#121212] shrink-0">
-        <div class="nav-tab active" onclick="switchMarketTab(this, '🇰🇷 KR Market')">🇰🇷 KR Market</div>
-        <div class="nav-tab" onclick="switchMarketTab(this, '🇺🇸 US Market')">🇺🇸 US Market</div>
-        <div class="nav-tab" onclick="switchMarketTab(this, 'Economic Calendar')">Economic Calendar</div>
-        <div class="nav-tab">Historical Returns</div>
-        <div class="nav-tab">Risk</div>
-        <div class="nav-tab">Holdings Matrix</div>
+    <div class="h-10 border-b koyfin-border flex items-center px-4 gap-1 bg-[#121212] shrink-0" role="tablist">
+        <div class="nav-tab active" data-action="switchMarketTab" data-label="🇰🇷 KR Market" role="tab" aria-selected="true">🇰🇷 KR Market</div>
+        <div class="nav-tab" data-action="switchMarketTab" data-label="🇺🇸 US Market" role="tab" aria-selected="false">🇺🇸 US Market</div>
+        <div class="nav-tab" data-action="switchMarketTab" data-label="Economic Calendar" role="tab" aria-selected="false">Economic Calendar</div>
+        <div class="nav-tab" role="tab" aria-selected="false">Historical Returns</div>
+        <div class="nav-tab" role="tab" aria-selected="false">Risk</div>
+        <div class="nav-tab" role="tab" aria-selected="false">Holdings Matrix</div>
     </div>
 
     <!-- Main Content Area (Scrollable) -->
@@ -237,31 +239,23 @@
                                 <span id="summary-chart-ticker" class="text-xs text-blue-400 font-mono ml-2"></span>
                             </div>
                             <!-- Time Range Buttons -->
-                            <div class="flex items-center gap-1 bg-[#1a1a1a] rounded p-0.5 border border-[#333]">
-                                <button onclick="setChartRange('1D')"
-                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-gray-400 hover:text-white hover:bg-[#333] rounded transition-colors"
-                                    data-range="1D">1D</button>
-                                <button onclick="setChartRange('1W')"
-                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-gray-400 hover:text-white hover:bg-[#333] rounded transition-colors"
-                                    data-range="1W">1W</button>
-                                <button onclick="setChartRange('1M')"
-                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-gray-400 hover:text-white hover:bg-[#333] rounded transition-colors"
-                                    data-range="1M">1M</button>
-                                <button onclick="setChartRange('3M')"
-                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-gray-400 hover:text-white hover:bg-[#333] rounded transition-colors"
-                                    data-range="3M">3M</button>
-                                <button onclick="setChartRange('6M')"
-                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-gray-400 hover:text-white hover:bg-[#333] rounded transition-colors"
-                                    data-range="6M">6M</button>
-                                <button onclick="setChartRange('1Y')"
-                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-white bg-[#333] rounded transition-colors"
-                                    data-range="1Y">1Y</button>
-                                <button onclick="setChartRange('5Y')"
-                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-gray-400 hover:text-white hover:bg-[#333] rounded transition-colors"
-                                    data-range="5Y">5Y</button>
-                                <button onclick="setChartRange('All')"
-                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-gray-400 hover:text-white hover:bg-[#333] rounded transition-colors"
-                                    data-range="All">All</button>
+                            <div class="flex items-center gap-1 bg-[#1a1a1a] rounded p-0.5 border border-[#333]" role="group" aria-label="Chart time range">
+                                <button data-action="setChartRange" data-range="1D"
+                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-gray-400 hover:text-white hover:bg-[#333] rounded transition-colors">1D</button>
+                                <button data-action="setChartRange" data-range="1W"
+                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-gray-400 hover:text-white hover:bg-[#333] rounded transition-colors">1W</button>
+                                <button data-action="setChartRange" data-range="1M"
+                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-gray-400 hover:text-white hover:bg-[#333] rounded transition-colors">1M</button>
+                                <button data-action="setChartRange" data-range="3M"
+                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-gray-400 hover:text-white hover:bg-[#333] rounded transition-colors">3M</button>
+                                <button data-action="setChartRange" data-range="6M"
+                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-gray-400 hover:text-white hover:bg-[#333] rounded transition-colors">6M</button>
+                                <button data-action="setChartRange" data-range="1Y"
+                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-white bg-[#333] rounded transition-colors">1Y</button>
+                                <button data-action="setChartRange" data-range="5Y"
+                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-gray-400 hover:text-white hover:bg-[#333] rounded transition-colors">5Y</button>
+                                <button data-action="setChartRange" data-range="All"
+                                    class="chart-range-btn px-2 py-0.5 text-[10px] font-medium text-gray-400 hover:text-white hover:bg-[#333] rounded transition-colors">All</button>
                             </div>
                         </div>
                         <div id="summary-chart-container" class="flex-1 w-full relative"></div>
@@ -278,7 +272,7 @@
                                     <label for="history-date" class="text-gray-400 text-sm">Date:</label>
                                     <input type="date" id="history-date"
                                         class="bg-gray-800 text-white border border-gray-700 rounded px-3 py-1 text-sm focus:outline-none focus:border-blue-500">
-                                    <button onclick="resetDate()"
+                                    <button data-action="resetDate"
                                         class="text-xs text-gray-500 hover:text-white underline">Reset</button>
                                 </div>
                                 <span class="text-sm text-gray-400">Update Interval: <span
@@ -323,11 +317,11 @@
 
                         <!-- Style Box Controls -->
                         <div class="flex gap-1 mb-4 bg-[#1a1a1a] p-1 rounded w-max">
-                            <button onclick="switchTab('summary')" id="tab-summary"
+                            <button data-action="switchTab" data-tab="summary" id="tab-summary"
                                 class="tab-btn active text-sm font-medium text-white border-b-2 border-blue-500 pb-2 px-1">Summary</button>
-                            <button onclick="switchTab('analysis')" id="tab-analysis"
+                            <button data-action="switchTab" data-tab="analysis" id="tab-analysis"
                                 class="tab-btn text-sm font-medium text-gray-400 hover:text-white border-b-2 border-transparent pb-2 px-1 transition-colors">Analysis</button>
-                            <button
+                            <button data-action="switchTab" data-tab="exposure"
                                 class="tab-btn text-sm font-medium text-gray-400 hover:text-white border-b-2 border-transparent pb-2 px-1 transition-colors">Exposure</button>
                         </div>
 
@@ -437,17 +431,21 @@
                         <!-- Technical Indicator Toggles -->
                         <div class="flex items-center gap-2 mt-3 pt-3 border-t border-gray-700">
                             <span class="text-xs text-gray-500">Indicators:</span>
-                            <button id="toggle-bb" onclick="toggleIndicator('bb')"
-                                class="px-2 py-1 text-xs rounded bg-gray-700 text-gray-300 hover:bg-purple-600 transition-colors">📊
+                            <button id="toggle-bb" data-action="toggleIndicator" data-indicator="bb"
+                                class="px-2 py-1 text-xs rounded bg-gray-700 text-gray-300 hover:bg-purple-600 transition-colors"
+                                aria-label="Toggle Bollinger Bands indicator" aria-pressed="false">📊
                                 BB</button>
-                            <button id="toggle-sr" onclick="toggleIndicator('sr')"
-                                class="px-2 py-1 text-xs rounded bg-gray-700 text-gray-300 hover:bg-orange-600 transition-colors">📏
+                            <button id="toggle-sr" data-action="toggleIndicator" data-indicator="sr"
+                                class="px-2 py-1 text-xs rounded bg-gray-700 text-gray-300 hover:bg-orange-600 transition-colors"
+                                aria-label="Toggle Support/Resistance indicator" aria-pressed="false">📏
                                 S/R</button>
-                            <button id="toggle-rsi" onclick="toggleIndicator('rsi')"
-                                class="px-2 py-1 text-xs rounded bg-gray-700 text-gray-300 hover:bg-green-600 transition-colors">📈
+                            <button id="toggle-rsi" data-action="toggleIndicator" data-indicator="rsi"
+                                class="px-2 py-1 text-xs rounded bg-gray-700 text-gray-300 hover:bg-green-600 transition-colors"
+                                aria-label="Toggle RSI indicator" aria-pressed="false">📈
                                 RSI</button>
-                            <button id="toggle-macd" onclick="toggleIndicator('macd')"
-                                class="px-2 py-1 text-xs rounded bg-gray-700 text-gray-300 hover:bg-blue-600 transition-colors">📉
+                            <button id="toggle-macd" data-action="toggleIndicator" data-indicator="macd"
+                                class="px-2 py-1 text-xs rounded bg-gray-700 text-gray-300 hover:bg-blue-600 transition-colors"
+                                aria-label="Toggle MACD indicator" aria-pressed="false">📉
                                 MACD</button>
                         </div>
                         <!-- RSI Sub-Chart -->
@@ -510,7 +508,7 @@
                                 <th class="p-2 text-center">목표 Upside</th>
                             </tr>
                         </thead>
-                        <tbody id="us-smart-money-table">
+                        <tbody id="us-smart-money-table" aria-live="polite">
                             <tr class="animate-pulse">
                                 <td colspan="8" class="p-4 text-center text-gray-500">Loading...</td>
                             </tr>
@@ -536,12 +534,16 @@
                     <!-- Top Inflows -->
                     <div class="bg-[#1a1a1a] rounded border border-[#2a2a2a] p-4">
                         <h3 class="text-xs text-green-400 font-bold mb-2" data-i18n="top-inflows">📈 Top Inflows</h3>
-                        <div id="us-etf-inflows" class="space-y-2"></div>
+                        <div id="us-etf-inflows" class="space-y-2" aria-live="polite">
+                            <div class="animate-pulse space-y-2"><div class="h-4 bg-gray-800 rounded w-3/4"></div><div class="h-4 bg-gray-800 rounded w-1/2"></div></div>
+                        </div>
                     </div>
                     <!-- Top Outflows -->
                     <div class="bg-[#1a1a1a] rounded border border-[#2a2a2a] p-4">
                         <h3 class="text-xs text-red-400 font-bold mb-2" data-i18n="top-outflows">📉 Top Outflows</h3>
-                        <div id="us-etf-outflows" class="space-y-2"></div>
+                        <div id="us-etf-outflows" class="space-y-2" aria-live="polite">
+                            <div class="animate-pulse space-y-2"><div class="h-4 bg-gray-800 rounded w-3/4"></div><div class="h-4 bg-gray-800 rounded w-1/2"></div></div>
+                        </div>
                     </div>
                     <!-- AI Analysis Container -->
                     <div id="us-etf-ai-container"
@@ -603,7 +605,7 @@
                                 class="px-2 py-0.5 text-xs rounded-full bg-purple-600 text-white transition-colors">GLM-5</button>
                         </div>
                     </div>
-                    <div id="us-macro-ai-analysis" class="text-sm text-gray-300 leading-relaxed whitespace-pre-wrap">
+                    <div id="us-macro-ai-analysis" class="text-sm text-gray-300 leading-relaxed whitespace-pre-wrap" aria-live="polite">
                         분석 로딩 중...
                     </div>
                 </div>
@@ -621,17 +623,19 @@
                         <span id="us-calendar-range" class="text-xs text-gray-500"></span>
                     </div>
                     <div class="flex gap-2">
-                        <button onclick="expandAllCalendarEvents()"
-                            class="px-2 py-1 text-[10px] bg-gray-800 hover:bg-gray-700 text-gray-300 rounded transition-colors">
+                        <button data-action="expandAllCalendarEvents"
+                            class="px-2 py-1 text-[10px] bg-gray-800 hover:bg-gray-700 text-gray-300 rounded transition-colors"
+                            aria-label="Expand all calendar events">
                             🔽 Expand All
                         </button>
-                        <button onclick="collapseAllCalendarEvents()"
-                            class="px-2 py-1 text-[10px] bg-gray-800 hover:bg-gray-700 text-gray-300 rounded transition-colors">
+                        <button data-action="collapseAllCalendarEvents"
+                            class="px-2 py-1 text-[10px] bg-gray-800 hover:bg-gray-700 text-gray-300 rounded transition-colors"
+                            aria-label="Collapse all calendar events">
                             🔼 Collapse All
                         </button>
                     </div>
                 </div>
-                <div id="us-calendar-events" class="space-y-2">
+                <div id="us-calendar-events" class="space-y-2" aria-live="polite">
                     <div class="text-center text-xs text-gray-500">Loading calendar...</div>
                 </div>
             </div>
@@ -1160,7 +1164,7 @@
                 const div = document.createElement('div');
                 div.className = 'mb-2';
                 div.innerHTML = `
-                    <div class="flex items-center justify-between p-2 rounded text-xs ${bgClass} cursor-pointer hover:bg-opacity-80 transition-all" onclick="toggleCalendarDetails('${eventId}')">
+                    <div class="flex items-center justify-between p-2 rounded text-xs ${bgClass} cursor-pointer hover:bg-opacity-80 transition-all" data-action="toggleCalendarDetails" data-event-id="${eventId}">
                         <div class="flex items-center gap-2">
                             <span>${icon}</span>
                             <span class="font-medium ${colorClass}">${event.event}</span>
@@ -1180,10 +1184,10 @@
                         </div>
                         ${event.type === 'Earnings' ? `
                         <div class="mt-2 flex gap-2">
-                            <button class="flex-1 bg-blue-900/30 hover:bg-blue-900/50 text-blue-300 py-1 rounded transition-colors text-center" onclick="loadUSAISummary('${event.event.split(' ')[0]}'); event.stopPropagation();">
+                            <button class="flex-1 bg-blue-900/30 hover:bg-blue-900/50 text-blue-300 py-1 rounded transition-colors text-center" data-action="loadUSAISummary" data-ticker="${event.event.split(' ')[0]}">
                                 🤖 AI Analysis
                             </button>
-                            <button class="flex-1 bg-gray-800 hover:bg-gray-700 text-gray-300 py-1 rounded transition-colors text-center" onclick="window.open('https://finance.yahoo.com/quote/${event.event.split(' ')[0]}', '_blank'); event.stopPropagation();">
+                            <button class="flex-1 bg-gray-800 hover:bg-gray-700 text-gray-300 py-1 rounded transition-colors text-center" data-action="openYahooFinance" data-ticker="${event.event.split(' ')[0]}">
                                 📊 Yahoo Finance
                             </button>
                         </div>` : ''}
@@ -2168,7 +2172,8 @@
             holdings.forEach(stock => {
                 const tr = document.createElement('tr');
                 tr.className = 'border-b border-gray-800 hover:bg-gray-800 transition-colors cursor-pointer';
-                tr.onclick = () => updateSummaryChart(stock.ticker);
+                tr.dataset.action = 'updateSummaryChart';
+                tr.dataset.ticker = stock.ticker;
 
                 // Determine color for YTD
                 const ytdVal = typeof stock.ytd === 'number' ? stock.ytd : parseFloat(stock.ytd || 0);
@@ -2361,6 +2366,66 @@
 
         // Initial call after a short delay to ensure table is rendered
         setTimeout(updateRealtimePrices, 5000);
+
+        // --- Central Event Delegation for data-action attributes ---
+        document.addEventListener('click', function(e) {
+            const target = e.target.closest('[data-action]');
+            if (!target) return;
+
+            const action = target.dataset.action;
+
+            switch (action) {
+                case 'switchMarketTab':
+                    switchMarketTab(target, target.dataset.label);
+                    break;
+                case 'setChartRange':
+                    if (typeof setChartRange === 'function') setChartRange(target.dataset.range);
+                    break;
+                case 'createMarketReport':
+                    if (typeof createMarketReport === 'function') createMarketReport();
+                    break;
+                case 'resetDate':
+                    if (typeof resetDate === 'function') resetDate();
+                    break;
+                case 'switchTab':
+                    if (typeof switchTab === 'function') switchTab(target.dataset.tab);
+                    break;
+                case 'toggleIndicator':
+                    if (typeof toggleIndicator === 'function') toggleIndicator(target.dataset.indicator);
+                    break;
+                case 'expandAllCalendarEvents':
+                    if (typeof expandAllCalendarEvents === 'function') expandAllCalendarEvents();
+                    break;
+                case 'collapseAllCalendarEvents':
+                    if (typeof collapseAllCalendarEvents === 'function') collapseAllCalendarEvents();
+                    break;
+                case 'toggleCalendarDetails':
+                    if (typeof toggleCalendarDetails === 'function') toggleCalendarDetails(target.dataset.eventId);
+                    break;
+                case 'loadUSAISummary':
+                    e.stopPropagation();
+                    if (typeof loadUSAISummary === 'function') loadUSAISummary(target.dataset.ticker);
+                    break;
+                case 'openYahooFinance':
+                    e.stopPropagation();
+                    window.open('https://finance.yahoo.com/quote/' + target.dataset.ticker, '_blank');
+                    break;
+                case 'updateSummaryChart':
+                    if (typeof updateSummaryChart === 'function') updateSummaryChart(target.dataset.ticker);
+                    break;
+                default:
+                    console.warn('[EventDelegation] Unknown action:', action);
+            }
+        });
+
+        document.addEventListener('change', function(e) {
+            const target = e.target.closest('[data-action]');
+            if (!target) return;
+
+            if (target.dataset.action === 'loadUSHistoryByDate') {
+                if (typeof loadUSHistoryByDate === 'function') loadUSHistoryByDate(target.value);
+            }
+        });
 
     </script>
 </body>
